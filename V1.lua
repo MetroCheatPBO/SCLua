@@ -15,16 +15,16 @@ if date >= Date then
 NEW VERSION AVAILABLE Chat MetroCheat_PBO™ - @gHesss_Boys]])
   return
   end
-  -- Type Your Script Codes Bellow and If Script Isn't Expired Then Script Will Run.
+ -- Type Your Script Codes Bellow and If Script Isn't Expired Then Script Will Run.
  
-if gg.PACKAGE  == 'com.bbksb.vdjw' then
-else
-gg.alert("Gunakan Game Guardian Versi ɢɢ MetroCheat_PBO™ untuk Menjalankan Script Ini\nUse My Game Guardian To Run Script", "[•] Download")
- revo.goURL("https://t.me/MetroCheat_PBO")
-os.exit()
-while true do
-end
-end
+--if gg.PACKAGE  == 'com.bbksb.vdjw' then
+--else
+--gg.alert("Gunakan Game Guardian Versi ɢɢ MetroCheat_PBO™ untuk Menjalankan Script Ini\nUse My Game Guardian To Run Script", "[•] Download")
+--revo.goURL("https://t.me/MetroCheat_PBO")
+--os.exit()
+--while true do
+--end
+--end
 
 PERTAMA = 1
 function PERTAMA()
