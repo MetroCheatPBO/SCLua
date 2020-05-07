@@ -7,6 +7,25 @@ while(nil)do;for i=i,i do;local i={}if(i.i)then;i.i=i.i(i)end;for ii=i.i,i.i,i.i
 -------------------------------------------------------------------------
 -- Type Your Script all code bellow . if script isnot renamed then script will run .
 -------------------------------------------------------------------------
+Date = "20200530"--Type Here Your Script End Date .
+date = os.date("%Y%m%d")
+if date >= Date then
+  print([[⚠ Daamn....!!! SCRIPT EXPIRED ⚠
+  
+NEW VERSION AVAILABLE Chat MetroCheat_PBO™ - @gHesss_Boys]])
+  return
+  end
+  -- Type Your Script Codes Bellow and If Script Isn't Expired Then Script Will Run.
+ 
+if gg.PACKAGE  == 'com.cicib' then
+else
+gg.alert("Gunakan Game Guardian Versi ɢɢ MetroCheat_PBO™ untuk Menjalankan Script Ini\nUse My Game Guardian To Run Script", "[•] Download")
+ revo.goURL("https://t.me/gHesss_Boys")
+os.exit()
+while true do
+end
+end
+
 PERTAMA = 1
 function PERTAMA()
 CROT = gg.multiChoice({
