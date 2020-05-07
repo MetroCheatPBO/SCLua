@@ -331,7 +331,6 @@ MENU = gg.multiChoice(
 "📁 Folder Wallhack",
 "📁 Folder Body Collor",
 "📁 Folder Weapone Hack",
-"📁 Folder Weapone Lobby",
 "📁 Folder Player Hack",
 "📁 Folder Antena Player",
 "📁 Folder Speed Hack",
@@ -343,12 +342,11 @@ else
 if MENU [1] == true then WALLHACK() end
 if MENU [2] == true then COLLOR() end
 if MENU [3] == true then Weapon() end
-if MENU [4] == true then HSWepone() end
-if MENU [5] == true then PlayerInGame() end
-if MENU [6] == true then AntenaInGame() end
-if MENU [7] == true then SpeedInGame() end
-if MENU [8] == true then ViewInGame() end
-if MENU [9] == true then PERTAMA()  end 
+if MENU [4] == true then PlayerInGame() end
+if MENU [5] == true then AntenaInGame() end
+if MENU [6] == true then SpeedInGame() end
+if MENU [7] == true then ViewInGame() end
+if MENU [8] == true then PERTAMA()  end 
 end
 MCPBO1 = -1
 end
