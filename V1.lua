@@ -1263,10 +1263,10 @@ function Weapon()
     "┏ No Recoil [Loby]",
 	"┏ AimLock [Loby]",
 	"┏ Aimbot [Game]",
-	"┏ HS 30% [Land]",
 	"┏ HS 50% [Land]",
-    "┏ HS 70% [Land]",
-	"┏ HS 90% [Land]",
+	"┏ HS 70% [Land]",
+        "┏ HS 99% [Land]",
+	"┏ HS Brutal [Land]",
 	"┏ Magic Bullet [Land - Traine]",
 	"┏ Bullet Tracker [Land - Traine]",
 	"┏ Collab ESP-AIMLock [Land - Traine]",
@@ -1380,7 +1380,7 @@ gg.alert("HEADSHOT 50% ")
   gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10)
   gg.editAll("50", gg.TYPE_FLOAT)
-  gg.toast("Headshot 30%")
+  gg.toast("Headshot 50%")
 end
 function mbhs2() 
 gg.alert("HEADSHOT 70% ")
@@ -1389,16 +1389,16 @@ gg.alert("HEADSHOT 70% ")
   gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10)
   gg.editAll("70", gg.TYPE_FLOAT)
-gg.toast("ʜᴇᴀᴅsʜᴏᴛ 50% Activated!!")
+gg.toast("ʜᴇᴀᴅsʜᴏᴛ 70% Activated!!")
 end
 function mbhs3()
-gg.alert("HEADSHOT 70% ")
+gg.alert("HEADSHOT 99% ")
   gg.clearResults()
   gg.setRanges(gg.REGION_ANONYMOUS)
   gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10)
   gg.editAll("100", gg.TYPE_FLOAT)
-gg.toast("ʜᴇᴀᴅsʜᴏᴛ 70%")
+gg.toast("ʜᴇᴀᴅsʜᴏᴛ 99%")
 end
 function mbhs4()
 gg.alert("MB - HEDSHOT BRUTAL ")
