@@ -994,9 +994,9 @@ function MTK()
   WHMTK = gg.multiChoice({
     "┏ Wallhack MTK P70",
     "┏ Wallhack MTK P70 Search Manual",		
-    "☑BACK"
+    " ☑BACK"
   }, nil, "WALLHACK PLAYERS")
-  if WHMTK == nil then
+if WHMTK == nil then
   else
     if WHMTK[1] == true then
       P70AUTO()
@@ -1010,6 +1010,7 @@ function MTK()
   end
   MCPBO1 = -1
 end
+
 function P70AUTO()
   gg.setRanges(gg.REGION_C_ALLOC)
   gg.searchNumber("1.793662e-43;3.5873241e-43;1.1210388e-44;0.5", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
@@ -1039,6 +1040,7 @@ function P70AUTO()
   gg.clearResults()
   gg.toast("Wallhack Mediatek P70")
 end
+
 function P70MANUAL()
   gg.setRanges(gg.REGION_C_ALLOC)
   gg.searchNumber("1.793662e-43;3.5873241e-43;1.1210388e-44;0.5", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
