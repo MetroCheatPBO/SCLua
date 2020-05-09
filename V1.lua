@@ -993,7 +993,7 @@ end
 function MTK()
   WHMTK = gg.multiChoice({
     "┏ Wallhack MTK P70",
-    "┏ Wallhack MTK P70 (Search Manual)",		
+    "┏ Wallhack MTK P70 Search Manual",		
     "☑BACK"
   }, nil, "WALLHACK PLAYERS")
   if WHMTK == nil then
