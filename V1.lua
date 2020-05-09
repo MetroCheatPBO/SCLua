@@ -878,14 +878,14 @@ function wh8895()
     gg.clearResults()
     gg.searchNumber("0.5;2.8025969e-45;4D;2D;14D;5D;-1D", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
     if gg.getResultCount() == 0 then
-      gg.toast("😆 Wallhack Exynos 8895 👍")
+      gg.toast("Wallhack Exynos 8895")
     else
       gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
       _Count = gg.getResultCount()
       _A = gg.getResults(_Count)
       last_Count = _Count + 1
       w = 1
-      _T = "😆 Wallhack Exynos 8895 👍"
+      _T = "Wallhack Exynos 8895"
       WHFIX8895()
     end
   end
@@ -900,7 +900,7 @@ function WHFIX8895()
       _CL[_FORV_3_] = "Edit Wallhack Value " .. _FORV_3_ .. ""
     end
     _CL[last_Count] = "⎋BACK"
-    _C_ = gg.choice(_CL, nil, "😆 Wallhack Exynos 8895 👍")
+    _C_ = gg.choice(_CL, nil, "Wallhack Exynos 8895")
     for _FORV_3_ = 1, _Count do
       if _C_ == _FORV_3_ then
         for _FORV_7_, _FORV_8_ in ipairs(_A) do
@@ -1057,14 +1057,14 @@ function P70MANUAL()
     gg.clearResults()
     gg.searchNumber("1.793662e-43;3.5873241e-43;1.1210388e-44;0.5", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
     if gg.getResultCount() == 0 then
-      gg.toast("😆 Wallhack Mediatek P70 👍")
+      gg.toast("Wallhack Mediatek P70")
     else
       gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
       _Count = gg.getResultCount()
       _A = gg.getResults(_Count)
       last_Count = _Count + 1
       w = 1
-      _T = "😆 Wallhack Mediatek P70 👍"
+      _T = "Wallhack Mediatek P70"
       WHFIXMTK70()
     end
   end
@@ -1079,7 +1079,7 @@ function WHFIXMTK70()
       _CL[_FORV_3_] = "Edit Wallhack Value " .. _FORV_3_ .. ""
     end
     _CL[last_Count] = "⎋BACK"
-    _C_ = gg.choice(_CL, nil, "😆 Wallhack Mediatek P70 👍")
+    _C_ = gg.choice(_CL, nil, "Wallhack Mediatek P70 ")
     for _FORV_3_ = 1, _Count do
       if _C_ == _FORV_3_ then
         for _FORV_7_, _FORV_8_ in ipairs(_A) do
