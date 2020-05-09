@@ -991,7 +991,7 @@ function WHFIX9810()
 end
 
 function MTK()
-  WHMTK = gg.choice({
+  WHMTK = gg.multiChoice({
     "┏ Wallhack MTK P70",
     "┏ Wallhack MTK P70 (Search Manual)",		
     "☑BACK"
