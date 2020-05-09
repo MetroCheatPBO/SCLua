@@ -347,7 +347,7 @@ function WALLHACK()
   WALL = gg.choice({
     "┏ SNAPDRAGON",
     "┏ EXYNOS",
-    "┏ Mediatek",
+    "┏ MEDIATEK",
     "☑BACK"
   }, nil, "WALLHACK PLAYERS")
   if WALL == nil then
@@ -995,7 +995,7 @@ function WHP70()
     "┏ Wallhack MTK P70",
     "┏ Wallhack MTK P70 Search Manual",
     " ☑BACK"
-  }, nil, "WALLHACK PLAYERS")
+  }, nil, "Recomandet For Search Manual WH")
   if MP70 == nil then
   else
     if MP70 == 1 then
@@ -1040,12 +1040,62 @@ function P70AUTO()
   gg.toast("Wallhack Mediatek P70")
 end
 
+
 function P70MANUAL()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("1.793662e-43;3.5873241e-43;1.1210388e-44;0.5", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
-  gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
-  gg.getResults(20)
-  gg.alert("Frezze 0.5 Edit Value 2")
+  if w == 1 then
+    WHFIXMTK70()
+  else
+    gg.clearList()
+    gg.clearResults()
+    gg.setRanges(gg.REGION_C_ALLOC)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_C_ALLOC)
+    gg.searchNumber("1.793662e-43;3.5873241e-43;1.1210388e-44;0.5", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+    gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(20)
+    gg.editAll("0", gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.searchNumber("1.793662e-43;3.5873241e-43;1.1210388e-44;0.5", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+    if gg.getResultCount() == 0 then
+      gg.toast("😆 Wallhack Mediatek P70 👍")
+    else
+      gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+      _Count = gg.getResultCount()
+      _A = gg.getResults(_Count)
+      last_Count = _Count + 1
+      w = 1
+      _T = "😆 Wallhack Mediatek P70 👍"
+      WHFIXMTK70()
+    end
+  end
+end
+function WHFIXMTK70()
+  if w == 0 then
+    gg.toast("Loading...")
+  else
+    gg.setVisible(false)
+    _CL = {}
+    for _FORV_3_ = 1, _Count do
+      _CL[_FORV_3_] = "Edit Wallhack Value " .. _FORV_3_ .. ""
+    end
+    _CL[last_Count] = "⎋BACK"
+    _C_ = gg.choice(_CL, nil, "😆 Wallhack Mediatek P70 👍")
+    for _FORV_3_ = 1, _Count do
+      if _C_ == _FORV_3_ then
+        for _FORV_7_, _FORV_8_ in ipairs(_A) do
+          _A[_FORV_7_].freeze = false
+          gg.addListItems(_A)
+        end
+        _A[_FORV_3_].value = 1
+        _A[_FORV_3_].freeze = true
+        gg.addListItems(_A)
+        _FORV_3_ = _Count
+      elseif K_2 == _Count + 1 then
+        CHIPSET()
+      end
+    end
+  end
+  gg.setVisible(true)
 end
 
 function COLLOR()
@@ -1619,7 +1669,9 @@ function PlayerInGame()
     "┏ Sit Down Sᴄᴏᴘᴇ[ᴏN]",
     "┏ Sɪᴛ Down Sᴄᴏᴘᴇ[Oғғ]",
 	"┏ Fast Parasute[Land]",
-	"┏ Fast Landing[Land]",	
+	"┏ Fast Landing[Land]",
+    "┏ Big Head[ᴏN]",
+    "┏ Big Head[Oғғ]",	
     "☑BACK"
   }, nil, "Hack Players")
   if MCPlayer == nil then
@@ -1635,8 +1687,14 @@ function PlayerInGame()
 	end
     if MCPlayer == 4 then
       FastLand()
+	end
+    if MCPlayer == 5 then 
+	big_on()
+	end
+    if MCPlayer == 6 then 
+	big_off()
 	end	
-    if MCPlayer == 5 then
+    if MCPlayer == 7 then
       HOME()
     end
   end
@@ -1695,6 +1753,29 @@ function FastLand()
   gg.editAll("999999", gg.TYPE_FLOAT)
   gg.toast("Fast Landing")
 end
+function big_on()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("7.13140678406;1;1;1::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(200)
+gg.editAll("5", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Big Head On")
+gg.clearResults()
+end
+function big_off()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("7.13140678406;5;5;5::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(200)
+gg.editAll("1", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Big Head Off")
+gg.clearResults()
+end
+
 
 function AntenaInGame()
   MCAntena = gg.choice({
