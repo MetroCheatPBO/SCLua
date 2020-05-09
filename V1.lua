@@ -359,7 +359,7 @@ function WALLHACK()
       EXYNOSS()
     end
     if WALL == 3 then
-      MTK()
+      WHP70()
     end
     if WALL == 4 then
       HOME()
@@ -990,27 +990,27 @@ function WHFIX9810()
   gg.setVisible(true)
 end
 
-function MTK()
-  WHMTK = gg.multiChoice({
+
+function WHP70()
+  MP70 = gg.multiChoice({
     "┏ Wallhack MTK P70",
-    "┏ Wallhack MTK P70 Search Manual",		
+    "┏ Wallhack MTK P70 Search Manual",
     " ☑BACK"
-  }, nil, "WALLHACK PLAYERS")
-if WHMTK == nil then
+  }, nil, "WALLHACK PLAYERS ")
+  if MP70 == nil then
   else
-    if WHMTK[1] == true then
+    if MP70[1] == true then
       P70AUTO()
     end
-    if WHMTK[2] == true then
+    if MP70[2] == true then
       P70MANUAL()
     end
-    if WHMTK[3] == true then
+    if MP70[3] == true then
       HOME()
     end
   end
   MCPBO1 = -1
 end
-
 function P70AUTO()
   gg.setRanges(gg.REGION_C_ALLOC)
   gg.searchNumber("1.793662e-43;3.5873241e-43;1.1210388e-44;0.5", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
