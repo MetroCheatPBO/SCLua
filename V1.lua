@@ -992,46 +992,59 @@ end
 
 function MTK()
   WHMTK = gg.choice({
-    "┏ Wallhack MTK P60",
-    "┏ Wallhack MTK P70",		
+    "┏ Wallhack MTK P70",
+    "┏ Wallhack MTK P70 (Search Manual)",		
     "☑BACK"
   }, nil, "WALLHACK PLAYERS")
   if WHMTK == nil then
   else
-    if WHMTK == 1 then
-      WMP60()
+    if WHMTK[1] == true then
+      P70AUTO()
     end
-    if WHMTK == 2 then
-      WMP70()
-    end 			
-    if WHMTK == 3 then
+    if WHMTK[2] == true then
+      P70MANUAL()
+    end
+    if WHMTK[3] == true then
       HOME()
     end
   end
   MCPBO1 = -1
 end
-function WMP60()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("5.1567783e-43;3.5873241e-43;3.2229865e-44;0.5", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
-  gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
-  var = gg.getResults(20)
-  gg.editAll("2", gg.TYPE_FLOAT)
-  var = gg.getResults(100)
-  gg.addListItems(var)
-  gg.clearResults()
-  gg.toast("Wallhack Mediatek P60")
-end
-function WMP70()
+function P70AUTO()
   gg.setRanges(gg.REGION_C_ALLOC)
   gg.searchNumber("1.793662e-43;3.5873241e-43;1.1210388e-44;0.5", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
   gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
   var = gg.getResults(20)
   gg.editAll("2", gg.TYPE_FLOAT)
   var = gg.getResults(100)
+  var[1].value = 2
+  var[1].freeze = true
+  var[2].value = 2
+  var[2].freeze = true
+  var[3].value = 2
+  var[3].freeze = true
+  var[4].value = 2
+  var[4].freeze = true
+  var[5].value = 2
+  var[5].freeze = true
+  var[6].value = 2
+  var[6].freeze = true
+  var[7].value = 2
+  var[7].freeze = true
+  var[8].value = 2
+  var[8].freeze = true
+  var[9].value = 2
+  var[9].freeze = true
   gg.addListItems(var)
   gg.clearResults()
   gg.toast("Wallhack Mediatek P70")
+end
+function P70MANUAL()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("1.793662e-43;3.5873241e-43;1.1210388e-44;0.5", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+  gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+  gg.getResults(20)
+  gg.alert("Frezze 0.5 Edit Value 2")
 end
 
 function COLLOR()
