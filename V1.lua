@@ -347,6 +347,7 @@ function WALLHACK()
   WALL = gg.choice({
     "┏ SNAPDRAGON",
     "┏ EXYNOS",
+    "┏ Mediatek",
     "☑BACK"
   }, nil, "WALLHACK PLAYERS")
   if WALL == nil then
@@ -358,6 +359,9 @@ function WALLHACK()
       EXYNOSS()
     end
     if WALL == 3 then
+      MTK()
+    end
+    if WALL == 4 then
       HOME()
     end
   end
@@ -984,6 +988,50 @@ function WHFIX9810()
     end
   end
   gg.setVisible(true)
+end
+
+function MTK()
+  WHMTK = gg.choice({
+    "┏ Wallhack MTK P60",
+    "┏ Wallhack MTK P70",		
+    "☑BACK"
+  }, nil, "WALLHACK PLAYERS")
+  if WHMTK == nil then
+  else
+    if WHMTK == 1 then
+      WMP60()
+    end
+    if WHMTK == 2 then
+      WMP70()
+    end 			
+    if WHMTK == 3 then
+      HOME()
+    end
+  end
+  MCPBO1 = -1
+end
+function WMP60()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("5.1567783e-43;3.5873241e-43;3.2229865e-44;0.5", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+  gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+  var = gg.getResults(20)
+  gg.editAll("2", gg.TYPE_FLOAT)
+  var = gg.getResults(100)
+  gg.addListItems(var)
+  gg.clearResults()
+  gg.toast("Wallhack Mediatek P60")
+end
+function WMP70()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("1.793662e-43;3.5873241e-43;1.1210388e-44;0.5", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+  gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+  var = gg.getResults(20)
+  gg.editAll("2", gg.TYPE_FLOAT)
+  var = gg.getResults(100)
+  gg.addListItems(var)
+  gg.clearResults()
+  gg.toast("Wallhack Mediatek P70")
 end
 
 function COLLOR()
