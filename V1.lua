@@ -1307,7 +1307,6 @@ function Weapon()
 	"┏ HS Brutal [Land]",
 	"┏ Magic Bullet [Land - Traine]",
 	"┏ Bullet Tracker [Land - Traine]",
-	"┏ Collab ESP-AIMLock [Land - Traine]",
 	"┏ ESP Players [Land - Traine]",
 	"┏ Damage++ [Game]",
 	"┏ 1 Hit [Game]",
@@ -1326,12 +1325,11 @@ if MCWeapon[7] == true then mbhs3()end
 if MCWeapon[8] == true then mbhs4()end
 if MCWeapon[9] == true then mbhs5()end
 if MCWeapon[10] == true then mbhs6()end
-if MCWeapon[11] == true then ESPAIM()end
-if MCWeapon[12] == true then ESP()end
-if MCWeapon[13] == true then Dmg()end
-if MCWeapon[14] == true then hit()end
-if MCWeapon[15] == true then HSWepone()end
-if MCWeapon[16] == true then HOME()end
+if MCWeapon[11] == true then ESP()end
+if MCWeapon[12] == true then Dmg()end
+if MCWeapon[13] == true then hit()end
+if MCWeapon[14] == true then HSWepone()end
+if MCWeapon[15] == true then HOME()end
 end
 end
 function lessrec()
@@ -1435,7 +1433,7 @@ gg.alert("HEADSHOT 99% ")
   gg.setRanges(gg.REGION_ANONYMOUS)
   gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10)
-  gg.editAll("100", gg.TYPE_FLOAT)
+  gg.editAll("150", gg.TYPE_FLOAT)
 gg.toast("ʜᴇᴀᴅsʜᴏᴛ 99%")
 end
 function mbhs4()
@@ -1517,51 +1515,6 @@ gg.searchNumber("45",16, false,536870912,0,-1)
 gg.getResults(30)
 gg.editAll("999999",16)
 gg.toast(" MAGIC BULLET ")
-end
-function ESPAIM()
-  gg.clearResults()
-  gg.setRanges(8)
-  gg.searchNumber("-476053504;-349478012:189", 4, false, 536870912, 0, -1)
-  gg.searchNumber("-476053504", 4, false, 536870912, 0, -1)
-  gg.getResults(200)
-  gg.editAll("-476053503;-476053504", 4)
-  gg.clearResults()
-  gg.setRanges(8)
-  gg.searchNumber("324009984;-348261320:165", 4, false, 536870912, 0, -1)
-  gg.searchNumber("324009984", 4, false, 536870912, 0, -1)
-  gg.getResults(200)
-  gg.editAll("324009985", 4)
-  gg.clearResults()
-  gg.setRanges(8)
-  gg.searchNumber("-336586203;-511702015:105", 4, false, 536870912, 0, -1)
-  gg.searchNumber("-511702015", 4, false, 536870912, 0, -1)
-  gg.getResults(200)
-  gg.editAll("0", 4)
-  gg.clearResults()
-  gg.setRanges(8)
-  gg.searchNumber("-511633406;-352273285;-511633406:809", 4, false, 536870912, 0, -1)
-  gg.searchNumber("-511633406", 4, false, 536870912, 0, -1)
-  gg.getResults(200)
-  gg.editAll("0", 4)
-  gg.clearResults()
-  gg.setRanges(8)
-  gg.searchNumber("-335545007;-511702015:85", 4, false, 536870912, 0, -1)
-  gg.searchNumber("-511702015", 4, false, 536870912, 0, -1)
-  gg.getResults(200)
-  gg.editAll("0", 4)
-  gg.clearResults()
-  gg.setRanges(8)
-  gg.searchNumber("2046820354;-336587221:9", 4, false, 536870912, 0, -1)
-  gg.searchNumber("2046820354", 4, false, 536870912, 0, -1)
-  gg.getResults(200)
-  gg.editAll("2046820353", 4)
-  gg.clearResults()
-  gg.setRanges(8)
-  gg.searchNumber("2015175168", 16, false, 536870912, 0, -1)
-  gg.getResults(7)
-  gg.editAll("0", 16)
-  gg.clearResults()
-  gg.toast("ESP AimLock Activated")
 end
 function ESP()
 gg.clearResults()
