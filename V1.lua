@@ -990,22 +990,21 @@ function WHFIX9810()
   gg.setVisible(true)
 end
 
-
 function WHP70()
-  MP70 = gg.multiChoice({
+  MP70 = gg.choice({
     "┏ Wallhack MTK P70",
     "┏ Wallhack MTK P70 Search Manual",
     " ☑BACK"
-  }, nil, "WALLHACK PLAYERS ")
+  }, nil, "WALLHACK PLAYERS")
   if MP70 == nil then
   else
-    if MP70[1] == true then
+    if MP70 == 1 then
       P70AUTO()
     end
-    if MP70[2] == true then
+    if MP70 == 2 then
       P70MANUAL()
     end
-    if MP70[3] == true then
+    if MP70 == 3 then
       HOME()
     end
   end
