@@ -1371,8 +1371,6 @@ function Weapon()
     "┏ HS 99% [Land]",
 	"┏ HS Brutal [Land]",
 	"┏ Magic Bullet [Land - Traine]",
-	--"┏ Bullet Tracker [Land - Traine]",
-	--"┏ ESP Players [Land - Traine]",
 	"┏ Damage++ [Game]",
 	"┏ 1 Hit [Game]",
     "┏ Menu HeadShot Horor [Land]",	
@@ -1390,8 +1388,6 @@ if MCWeapon[7] == true then mbhs2()end
 if MCWeapon[8] == true then mbhs3()end
 if MCWeapon[9] == true then mbhs4()end
 if MCWeapon[10] == true then mbhs5()end
---if MCWeapon[11] == true then mbhs6()end
---if MCWeapon[12] == true then ESP()end
 if MCWeapon[11] == true then Dmg()end
 if MCWeapon[12] == true then hit()end
 if MCWeapon[13] == true then HSWepone()end
