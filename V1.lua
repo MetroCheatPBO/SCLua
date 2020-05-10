@@ -995,7 +995,7 @@ function WHP70()
     "┏ Wallhack MTK P70",
     "┏ Wallhack MTK P70 Search Manual",
     " ☑BACK"
-  }, nil, "Recomandet For Search Manual WH")
+  }, nil, "Recomanded For Search Manual WH")
   if MP70 == nil then
   else
     if MP70 == 1 then
@@ -1363,16 +1363,16 @@ function Weapon()
   MCWeapon = gg.multiChoice({
     "┏ Less Recoil [Loby]",
     "┏ No Recoil [Loby]",
-	"┏ AimLock Body[Loby]",
-	"┏ AimLock Head[Loby]",
+	"┏ AimLock Body [Loby]",
+	"┏ AimLock Head [Loby]",
 	"┏ Aimbot [Game]",
 	"┏ HS 50% [Land]",
 	"┏ HS 70% [Land]",
     "┏ HS 99% [Land]",
 	"┏ HS Brutal [Land]",
 	"┏ Magic Bullet [Land - Traine]",
-	"┏ Bullet Tracker [Land - Traine]",
-	"┏ ESP Players [Land - Traine]",
+	--"┏ Bullet Tracker [Land - Traine]",
+	--"┏ ESP Players [Land - Traine]",
 	"┏ Damage++ [Game]",
 	"┏ 1 Hit [Game]",
     "┏ Menu HeadShot Horor [Land]",	
@@ -1390,12 +1390,12 @@ if MCWeapon[7] == true then mbhs2()end
 if MCWeapon[8] == true then mbhs3()end
 if MCWeapon[9] == true then mbhs4()end
 if MCWeapon[10] == true then mbhs5()end
-if MCWeapon[11] == true then mbhs6()end
-if MCWeapon[12] == true then ESP()end
-if MCWeapon[13] == true then Dmg()end
-if MCWeapon[14] == true then hit()end
-if MCWeapon[15] == true then HSWepone()end
-if MCWeapon[16] == true then HOME()end
+--if MCWeapon[11] == true then mbhs6()end
+--if MCWeapon[12] == true then ESP()end
+if MCWeapon[11] == true then Dmg()end
+if MCWeapon[12] == true then hit()end
+if MCWeapon[13] == true then HSWepone()end
+if MCWeapon[14] == true then HOME()end
 end
 end
 function lessrec()
@@ -1458,10 +1458,34 @@ end
 function aimlockHD()
 gg.clearResults()
 gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber("1,324,366,404", gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0, -1)
+gg.searchNumber("1,324,366,404", gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0, -1)
+gg.getResults(80)
+gg.editAll("0",gg.TYPE_DWORD)	
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
 gg.searchNumber("2015175168", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(1)
 gg.editAll("0", gg.TYPE_DWORD)
 gg.clearResults()
+    gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("-460", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("-560", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("90, gg.TYPE_FLOAT)
+  gg.clearResults()
 gg.toast("AimLock Head Activated!!")
 end
 function aimbot360()
