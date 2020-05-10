@@ -1381,7 +1381,7 @@ else
 if MCWeapon[1] == true then lessrec()end
 if MCWeapon[2] == true then norec()end
 if MCWeapon[3] == true then aimlock()end
-if MCWeapon[4] == true then aimlockHD() HSS()end
+if MCWeapon[4] == true then aimlockHD()end
 if MCWeapon[5] == true then aimbot360()end
 if MCWeapon[6] == true then mbhs1()end
 if MCWeapon[7] == true then mbhs2()end
@@ -1443,6 +1443,7 @@ function norec()
   gg.clearResults()
 end
 function aimlock()
+gg.alert("AIMLOCK BODY")	
 gg.clearResults()
 gg.setRanges(gg.REGION_C_DATA)
 gg.searchNumber("1,324,366,404", gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0, -1)
@@ -1452,6 +1453,7 @@ gg.editAll("0",gg.TYPE_DWORD)
 gg.toast("AimLock Activated!!")
 end
 function aimlockHD()
+gg.alert("AIMLOCK HEAD")	
 gg.clearResults()
 gg.setRanges(gg.REGION_C_DATA)
 gg.searchNumber("1,324,366,404", gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0, -1)
@@ -1464,6 +1466,7 @@ gg.searchNumber("2015175168", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(1)
 gg.editAll("0", gg.TYPE_DWORD)
 gg.clearResults()
+HSS()
 gg.toast("AimLock Head Activated!!")
 end
 function HSS()
@@ -1487,6 +1490,7 @@ function HSS()
   gg.clearResults()
   end
 function aimbot360()
+gg.alert("AIMBOT 360")	
   gg.clearResults()
   gg.setRanges(gg.REGION_ANONYMOUS)
   gg.searchNumber("3.5;1;0.5;200;20::", gg.TYPE_FLOAT)
