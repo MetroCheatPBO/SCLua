@@ -878,14 +878,14 @@ function wh8895()
     gg.clearResults()
     gg.searchNumber("0.5;2.8025969e-45;4D;2D;14D;5D;-1D", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
     if gg.getResultCount() == 0 then
-      gg.toast("Wallhack Exynos 8895")
+      gg.toast("😆 Wallhack Exynos 8895 👍")
     else
       gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
       _Count = gg.getResultCount()
       _A = gg.getResults(_Count)
       last_Count = _Count + 1
       w = 1
-      _T = "Wallhack Exynos 8895"
+      _T = "😆 Wallhack Exynos 8895 👍"
       WHFIX8895()
     end
   end
@@ -900,7 +900,7 @@ function WHFIX8895()
       _CL[_FORV_3_] = "Edit Wallhack Value " .. _FORV_3_ .. ""
     end
     _CL[last_Count] = "⎋BACK"
-    _C_ = gg.choice(_CL, nil, "Wallhack Exynos 8895")
+    _C_ = gg.choice(_CL, nil, "😆 Wallhack Exynos 8895 👍")
     for _FORV_3_ = 1, _Count do
       if _C_ == _FORV_3_ then
         for _FORV_7_, _FORV_8_ in ipairs(_A) do
@@ -1057,14 +1057,14 @@ function P70MANUAL()
     gg.clearResults()
     gg.searchNumber("1.793662e-43;3.5873241e-43;1.1210388e-44;0.5", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
     if gg.getResultCount() == 0 then
-      gg.toast("Wallhack Mediatek P70")
+      gg.toast("😆 Wallhack Mediatek P70 👍")
     else
       gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
       _Count = gg.getResultCount()
       _A = gg.getResults(_Count)
       last_Count = _Count + 1
       w = 1
-      _T = "Wallhack Mediatek P70"
+      _T = "😆 Wallhack Mediatek P70 👍"
       WHFIXMTK70()
     end
   end
@@ -1079,7 +1079,7 @@ function WHFIXMTK70()
       _CL[_FORV_3_] = "Edit Wallhack Value " .. _FORV_3_ .. ""
     end
     _CL[last_Count] = "⎋BACK"
-    _C_ = gg.choice(_CL, nil, "Wallhack Mediatek P70 ")
+    _C_ = gg.choice(_CL, nil, "😆 Wallhack Mediatek P70 👍")
     for _FORV_3_ = 1, _Count do
       if _C_ == _FORV_3_ then
         for _FORV_7_, _FORV_8_ in ipairs(_A) do
@@ -1363,37 +1363,39 @@ function Weapon()
   MCWeapon = gg.multiChoice({
     "┏ Less Recoil [Loby]",
     "┏ No Recoil [Loby]",
-	"┏ AimLock [Loby]",
+	"┏ AimLock Body[Loby]",
+	"┏ AimLock Head[Loby]",
 	"┏ Aimbot [Game]",
 	"┏ HS 50% [Land]",
 	"┏ HS 70% [Land]",
-        "┏ HS 99% [Land]",
+    "┏ HS 99% [Land]",
 	"┏ HS Brutal [Land]",
 	"┏ Magic Bullet [Land - Traine]",
 	"┏ Bullet Tracker [Land - Traine]",
 	"┏ ESP Players [Land - Traine]",
 	"┏ Damage++ [Game]",
 	"┏ 1 Hit [Game]",
-    "┏ Menu HeadShot Beta [Land]",	
+    "┏ Menu HeadShot Horor [Land]",	
     "☑BACK"
   }, nil, "Weapone Players ")
 if MCWeapon == nil then
 else
 if MCWeapon[1] == true then lessrec()end
 if MCWeapon[2] == true then norec()end
-if MCWeapon[3] == true then aimbot()end
-if MCWeapon[4] == true then aimbot360()end
-if MCWeapon[5] == true then mbhs1()end
-if MCWeapon[6] == true then mbhs2()end
-if MCWeapon[7] == true then mbhs3()end
-if MCWeapon[8] == true then mbhs4()end
-if MCWeapon[9] == true then mbhs5()end
-if MCWeapon[10] == true then mbhs6()end
-if MCWeapon[11] == true then ESP()end
-if MCWeapon[12] == true then Dmg()end
-if MCWeapon[13] == true then hit()end
-if MCWeapon[14] == true then HSWepone()end
-if MCWeapon[15] == true then HOME()end
+if MCWeapon[3] == true then aimlock()end
+if MCWeapon[4] == true then aimlockHD()end
+if MCWeapon[5] == true then aimbot360()end
+if MCWeapon[6] == true then mbhs1()end
+if MCWeapon[7] == true then mbhs2()end
+if MCWeapon[8] == true then mbhs3()end
+if MCWeapon[9] == true then mbhs4()end
+if MCWeapon[10] == true then mbhs5()end
+if MCWeapon[11] == true then mbhs6()end
+if MCWeapon[12] == true then ESP()end
+if MCWeapon[13] == true then Dmg()end
+if MCWeapon[14] == true then hit()end
+if MCWeapon[15] == true then HSWepone()end
+if MCWeapon[16] == true then HOME()end
 end
 end
 function lessrec()
@@ -1444,14 +1446,23 @@ function norec()
   gg.toast("No Recoil Activated!!")
   gg.clearResults()
 end
-function aimbot()
+function aimlock()
 gg.clearResults()
 gg.setRanges(gg.REGION_C_DATA)
 gg.searchNumber("1,324,366,404", gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0, -1)
 gg.searchNumber("1,324,366,404", gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0, -1)
 gg.getResults(80)
 gg.editAll("0",gg.TYPE_DWORD)
-gg.toast("Aimbot Activated!!")
+gg.toast("AimLock Activated!!")
+end
+function aimlockHD()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber("2015175168", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("AimLock Head Activated!!")
 end
 function aimbot360()
   gg.clearResults()
@@ -1497,27 +1508,28 @@ gg.alert("HEADSHOT 99% ")
   gg.setRanges(gg.REGION_ANONYMOUS)
   gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10)
-  gg.editAll("150", gg.TYPE_FLOAT)
+  gg.editAll("200", gg.TYPE_FLOAT)
 gg.toast("ʜᴇᴀᴅsʜᴏᴛ 99%")
 end
 function mbhs4()
 gg.alert("MB - HEDSHOT BRUTAL ")
+gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("-88.66608428955;26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(2)
-gg.editAll("-466", gg.TYPE_FLOAT)
+gg.editAll("-460", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.searchNumber("-88.73961639404;28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(2)
-gg.editAll("-568", gg.TYPE_FLOAT)
+gg.editAll("-560", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(10)
-gg.editAll("280", gg.TYPE_FLOAT)
+gg.editAll("10000", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.toast("MB - HEDSHOT (Brutal) Activated!!")
 end
@@ -1639,28 +1651,31 @@ function LSB()
   gg.toast("Less Recoil Successful!")
 end
 function AHS()
+gg.alert("HATI - HATI DI RECORD")
   gg.clearResults()
   gg.setRanges(gg.REGION_ANONYMOUS)
   gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10)
   gg.editAll("300", gg.TYPE_FLOAT)
-  gg.toast("Auto Headshot Lobbyโ”")
+  gg.toast("Auto Headshot Lobby 150%")
 end
 function BHS3()
+gg.alert("HATI - HATI DI RECORD")
   gg.clearResults()
   gg.setRanges(gg.REGION_ANONYMOUS)
   gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10)
   gg.editAll("500", gg.TYPE_FLOAT)
-  gg.toast("Auto Headshot Lobbyโ”")
+  gg.toast("Auto Headshot Lobby 300%")
 end
 function MB100()
+gg.alert("HATI - HATI DI RECORD")
   gg.clearResults()
   gg.setRanges(gg.REGION_ANONYMOUS)
   gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10)
   gg.editAll("1000", gg.TYPE_FLOAT)
-  gg.toast("Magic Bullet 100% Activated")
+  gg.toast("Magic Bullet 1000% Activated")
 end
 
 
