@@ -871,21 +871,21 @@ function wh8895()
     gg.setRanges(gg.REGION_C_ALLOC)
     gg.clearResults()
     gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("0.5;2.8025969e-45;4D;2D;14D;5D;-1D", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber("0.5F;1.0F;1.00000011921F;0.27913400531F;0.765625F:65", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
     gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
     gg.getResults(100)
     gg.editAll("0", gg.TYPE_FLOAT)
     gg.clearResults()
-    gg.searchNumber("0.5;2.8025969e-45;4D;2D;14D;5D;-1D", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber("0.5F;1.0F;1.00000011921F;0.27913400531F;0.765625F:65", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
     if gg.getResultCount() == 0 then
-      gg.toast("😆 Wallhack Exynos 8895 👍")
+      gg.toast("Wallhack Exynos 8895")
     else
       gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
       _Count = gg.getResultCount()
       _A = gg.getResults(_Count)
       last_Count = _Count + 1
       w = 1
-      _T = "😆 Wallhack Exynos 8895 👍"
+      _T = "Wallhack Exynos 8895"
       WHFIX8895()
     end
   end
@@ -900,7 +900,7 @@ function WHFIX8895()
       _CL[_FORV_3_] = "Edit Wallhack Value " .. _FORV_3_ .. ""
     end
     _CL[last_Count] = "⎋BACK"
-    _C_ = gg.choice(_CL, nil, "😆 Wallhack Exynos 8895 👍")
+    _C_ = gg.choice(_CL, nil, "Edit 1 by 1 Value To Wallhack Exynos 8895")
     for _FORV_3_ = 1, _Count do
       if _C_ == _FORV_3_ then
         for _FORV_7_, _FORV_8_ in ipairs(_A) do
@@ -1057,14 +1057,14 @@ function P70MANUAL()
     gg.clearResults()
     gg.searchNumber("1.793662e-43;3.5873241e-43;1.1210388e-44;0.5", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
     if gg.getResultCount() == 0 then
-      gg.toast("😆 Wallhack Mediatek P70 👍")
+      gg.toast("Wallhack Mediatek P70")
     else
       gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
       _Count = gg.getResultCount()
       _A = gg.getResults(_Count)
       last_Count = _Count + 1
       w = 1
-      _T = "😆 Wallhack Mediatek P70 👍"
+      _T = "Wallhack Mediatek P70"
       WHFIXMTK70()
     end
   end
@@ -1079,7 +1079,7 @@ function WHFIXMTK70()
       _CL[_FORV_3_] = "Edit Wallhack Value " .. _FORV_3_ .. ""
     end
     _CL[last_Count] = "⎋BACK"
-    _C_ = gg.choice(_CL, nil, "😆 Wallhack Mediatek P70 👍")
+    _C_ = gg.choice(_CL, nil, "Edit 1 by 1 Value To Wallhack Mediatek P70")
     for _FORV_3_ = 1, _Count do
       if _C_ == _FORV_3_ then
         for _FORV_7_, _FORV_8_ in ipairs(_A) do
@@ -1121,13 +1121,13 @@ end
 
 function CSNAP()
   MCPBOCLR = gg.choice({
-    "❤RED",
-    "💚GREEN",
-    "💛YELLOW",
-    "💛YELLOW SD 845",
-    "💙BLUE",
-    "💖RAINBOW",
-    "⚪WHITE",
+    "RED",
+    "GREEN",
+    "YELLOW",
+    "YELLOW SD 845",
+    "BLUE",
+    "RAINBOW",
+    "WHITE",
     "☑BACK"
   }, nil, "COLLOR SNAPDRAGON")
   if MCPBOCLR == nil then
@@ -1226,15 +1226,15 @@ end
 
 function CEXY()
   Cexynos1 = gg.multiChoice({
-    "🐝 BC Red",
-    "🐝 BC Green",
-    "🐝 BC Yellow",
-    "🐝 Yellow",
-    "🐝 Red Mix",
-    "🐝 Red Flash",
-    "🐝 Red Exynos 7870",
-    "🐝 Yellow Exynos 7870",
-    "🐝 Red Exynos 8890",
+    "BC Red",
+    "BC Green",
+    "BC Yellow",
+    "Yellow",
+    "Red Mix",
+    "Red Flash",
+    "Red Exynos 7870",
+    "Yellow Exynos 7870",
+    "Red Exynos 8890",
     "[ BACK ]"
   }, nil, "COLLOR EXYNOS")
   if Cexynos1 == nil then
@@ -1486,7 +1486,7 @@ function HSS()
   gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10)
-  gg.editAll("80", gg.TYPE_FLOAT)
+  gg.editAll("150", gg.TYPE_FLOAT)
   gg.clearResults()
   end
 function aimbot360()
@@ -1525,7 +1525,7 @@ gg.alert("HEADSHOT 70% ")
   gg.setRanges(gg.REGION_ANONYMOUS)
   gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10)
-  gg.editAll("70", gg.TYPE_FLOAT)
+  gg.editAll("100", gg.TYPE_FLOAT)
 gg.toast("ʜᴇᴀᴅsʜᴏᴛ 70% Activated!!")
 end
 function mbhs3()
