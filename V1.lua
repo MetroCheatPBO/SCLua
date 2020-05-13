@@ -12,10 +12,17 @@ date = os.date("%Y%m%d")
 if date >= Date then
   print([[⚠ Daamn....!!! SCRIPT EXPIRED ⚠
   
-NEW VERSION AVAILABLE Chat MetroCheat_PBO™ - @gHesss_Boys]])
+NEW VERSION AVAILABLE Chat ᴄᴏᴘʏʀɪɢʜᴛ ® | 𝙱𝚢 𝙼𝙲𝙿𝙱𝙾™ - @𝚐𝙷𝚎𝚜𝚜𝚜_𝙱𝚘𝚢𝚜 - @gHesss_Boys]])
   return
   end
  -- Type Your Script Codes Bellow and If Script Isn't Expired Then Script Will Run.
+if gg.getTargetPackage() == 'com.tencent.ig' or gg.getTargetPackage() == 'com.rekoo.pubgm' or gg.getTargetPackage() == 'com.tencent.tmgp.pubgmhd' or gg.getTargetPackage() == 'com.pubg.krmobile' or gg.getTargetPackage() == 'com.vng.pubgmobile' or gg.getTargetPackage() == 'com.tencent.iglite' then
+    gg.clearResults()
+  else
+    print('⚠ HEY STUPID!!! WHERE GAME PUBG MOBILE...???? ⚠')
+    os.exit()
+  end
+gg.alert("𝙿𝚄𝙱𝙶 𝙶𝙻𝙾𝙱𝙰𝙻 - 𝚂𝙴𝙰𝚂𝙾𝙽 𝟷𝟹\n\n𝙶𝚄𝙽𝙰𝙺𝙰𝙽 𝙰𝙺𝚄𝙽 𝚃𝚄𝙼𝙱𝙰𝙻 𝚃𝙴𝚁𝙻𝙴𝙱𝙸𝙷 𝙳𝙰𝙷𝚄𝙻𝚄\n𝙿𝙴𝚁𝚃𝙰𝙼𝙰 𝙻𝙾𝙶𝙸𝙽 - 𝙰𝙺𝚃𝙸𝙵𝙺𝙰𝙽 𝙵𝙸𝚃𝚄𝚁' 𝙻𝙴𝙱𝙸𝙷 𝙱𝙰𝙸𝙺 𝙳𝙸 𝚃𝚁𝙰𝙸𝙽𝙴𝚁 𝙼𝙾𝙳𝙴\n𝙿𝙻𝙰𝚈𝙸𝙽𝙶 𝙱𝚁𝚄𝚃𝙰𝙻 𝚃𝙸𝙳𝙰𝙺 𝙳𝙸𝚂𝙰𝚁𝙰𝙽𝙺𝙰𝙽\n\n𝚁𝚎𝚐𝚊𝚛𝚍𝚜 𝙲𝚛𝚎𝚊𝚝𝚎𝚍  𝙱𝚢 𝙼𝙲𝙿𝙱𝙾™ - @𝚐𝙷𝚎𝚜𝚜𝚜_𝙱𝚘𝚢𝚜 ")
 
 
 PERTAMA = 1
@@ -24,27 +31,27 @@ CROT = gg.multiChoice({
 "🛡️ Bypass protection 🛡️ ",
 "📁 Fitur For Creators MCPBO™ Only [SAFE]",
 "📁 Folder Menu All - For You",
-"⛔ ᴇxɪᴛ ⛔"
-}, nil, " MetroCheat_PBO™ ")
+"ᴇxɪᴛ"
+}, nil, " ᴄᴏᴘʏʀɪɢʜᴛ ® | 𝙱𝚢 𝙼𝙲𝙿𝙱𝙾™ - @𝚐𝙷𝚎𝚜𝚜𝚜_𝙱𝚘𝚢𝚜 ")
 if CROT == nil then
 else
 if CROT [1] == true then bys() end
 if CROT [2] == true then ADM() end
 if CROT [3] == true then HOME() end
-if CROT [4] == true then exit()  end 
+if CROT [4] == true then CLOSE()  end 
 end
 MCPBO1 = -1
 end
 
 function bys()
 MCBP = gg.multiChoice({
-"➥ Bypass Global",
-"➥ Bypass Korea",
-"➥ Bypass Vietnam",
-"➥ Bypass Report",
-"➥ Bypass Koneksi",
-"➥ Exit Menu"
-}, nil, "\n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n                          🗣💤 MetroCheat_PBO™ 🔞 \n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n      ᴄᴏᴘʏʀɪɢʜᴛ ® | By MCPBO™ - @gHesss_Boys")
+"Bypass Global",
+"Bypass Korea",
+"Bypass Vietnam",
+"Bypass Report",
+"Bypass Koneksi",
+"ᴇxɪᴛ"
+}, nil, "\n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n                          🗣💤 MetroCheat_PBO™ 🔞 \n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n      ᴄᴏᴘʏʀɪɢʜᴛ ® | By 𝙼𝙲𝙿𝙱𝙾™ - @𝚐𝙷𝚎𝚜𝚜𝚜_𝙱𝚘𝚢𝚜")
 if MCBP == nil then
 else
 if MCBP [1] == true then bpgl() end
@@ -56,7 +63,6 @@ if MCBP [6] == true then PERTAMA()  end
 end
 MCPBO1 = -1
 end
-
 function bpgl()
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
@@ -227,9 +233,9 @@ ProgressBar =  "║░░░░░░░░░░░░░░░║";for x = 1,1
 Check_Login1 = gg.prompt({"⚠Enter Password⚠"},nil,{"000"}) or (function() while true do os.exit() end end)();Check_Login2 = Check_Login1[1] == "CCD" or (function() gg.alert("⚠ Daaamn!! Anda Bukan Admin MCPBO™ ⚠\n \n⛔ Wrong Password ⛔"); while true do PERTAMA() end end)() 
 
 MCADM = gg.multiChoice({
-"➥ Search Wallhack 8895",
-"➥ Fitur Safe",
-"➥ Exit Menu"
+"Search Wallhack 8895",
+"Fitur Safe",
+"ᴇxɪᴛ"
 }, nil, "\n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n                          🗣💤 MetroCheat_PBO™ 🔞 \n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n      ᴄᴏᴘʏʀɪɢʜᴛ ® | By MCPBO™ - @gHesss_Boys")
 if MCADM == nil then
 else
@@ -239,7 +245,6 @@ if MCADM [3] == true then PERTAMA()  end
 end
 MCPBO1 = -1
 end
-
 function whk8895()
 gg.searchNumber("0.5F;1.0F;1.00000011921F;0.27913400531F;0.765625F:65", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
@@ -257,17 +262,13 @@ end
 gg.addListItems(t)
 t = nil
 end
-
-
 function ClickADM()
 gg.alert([[
 Feature One Click For Admin
-
 1. Less Recoil
 2. Aimlock
 3. HS 70%
 4. Views 60%
-
 Admin MCPBO™ By @gHesss_Boys
 ]])
   A3()
@@ -276,7 +277,6 @@ Admin MCPBO™ By @gHesss_Boys
   A6()
 gg.alert('ALL ᴀᴄᴛɪᴠe!')	
 end
-
 function A3()
 gg.clearResults()
 gg.setRanges(gg.REGION_C_DATA)
@@ -327,8 +327,8 @@ MENU = gg.multiChoice(
 "📁 Folder Antena Player",
 "📁 Folder Speed Hack",
 "📁 Folder Mode Views Hack",
-"❎ Exit Menu"
-}, nil, "\n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n                          🗣💤 MetroCheat_PBO™ 🔞 \n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n      ᴄᴏᴘʏʀɪɢʜᴛ ® | By MCPBO™ - @gHesss_Boys")
+"ᴇxɪᴛ"
+}, nil, "\n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n                          🗣💤 MetroCheat_PBO™ 🔞 \n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n      ᴄᴏᴘʏʀɪɢʜᴛ ® | By 𝙼𝙲𝙿𝙱𝙾™ - @𝚐𝙷𝚎𝚜𝚜𝚜_𝙱𝚘𝚢𝚜")
 if MENU == nil then
 else
 if MENU [1] == true then WALLHACK() end
@@ -345,11 +345,11 @@ end
 
 function WALLHACK()
   WALL = gg.choice({
-    "┏ SNAPDRAGON",
-    "┏ EXYNOS",
-    "┏ MEDIATEK",
-    "☑BACK"
-  }, nil, "WALLHACK PLAYERS")
+    "SNAPDRAGON",
+    "EXYNOS",
+    "MEDIATEK",
+    "𝙱𝙰𝙲𝙺"
+  }, nil, " ᴄᴏᴘʏʀɪɢʜᴛ ® | 𝙱𝚢 𝙼𝙲𝙿𝙱𝙾™ - @𝚐𝙷𝚎𝚜𝚜𝚜_𝙱𝚘𝚢𝚜 ")
   if WALL == nil then
   else
     if WALL == 1 then
@@ -382,8 +382,8 @@ function SNAPDRAGON()
     "┏ Wallhack SD 710",
     "┏ Wallhack SD 845",
     "┏ Wallhack SD 855",
-    "☑BACK"
-  }, nil, "WALLHACK PLAYERS")
+    "𝙱𝙰𝙲𝙺"
+  }, nil, " ᴄᴏᴘʏʀɪɢʜᴛ ® | 𝙱𝚢 𝙼𝙲𝙿𝙱𝙾™ - @𝚐𝙷𝚎𝚜𝚜𝚜_𝙱𝚘𝚢𝚜 ")
   if WHSnap == nil then
   else
     if WHSnap == 1 then
@@ -657,16 +657,16 @@ end
 
 function EXYNOSS()
   WHMCPBO = gg.choice({
-	"┏ Wallhack Exynos 7420",
-    "┏ Wallhack Exynos 7570",
-    "┏ Wallhack Exynos 7870",
-    "┏ Wallhack Exynos 7885",
-    "┏ Wallhack Exynos 8890",
-    "┏ Wallhack Exynos 8895",
-    "┏ Wallhack Exynos 9610",
-    "┏ Wallhack Exynos 9810",		
-    "☑BACK"
-  }, nil, "WALLHACK PLAYERS")
+	"Wallhack Exynos 7420",
+    "Wallhack Exynos 7570",
+    "Wallhack Exynos 7870",
+    "Wallhack Exynos 7885",
+    "Wallhack Exynos 8890",
+    "Wallhack Exynos 8895",
+    "Wallhack Exynos 9610",
+    "Wallhack Exynos 9810",		
+    "𝙱𝙰𝙲𝙺"
+  }, nil, " ᴄᴏᴘʏʀɪɢʜᴛ ® | 𝙱𝚢 𝙼𝙲𝙿𝙱𝙾™ - @𝚐𝙷𝚎𝚜𝚜𝚜_𝙱𝚘𝚢𝚜 ")
   if WHMCPBO == nil then
   else
     if WHMCPBO == 1 then
@@ -992,9 +992,9 @@ end
 
 function WHP70()
   MP70 = gg.choice({
-    "┏ Wallhack MTK P70",
-    "┏ Wallhack MTK P70 Search Manual",
-    " ☑BACK"
+    "Wallhack MTK P70",
+    "Wallhack MTK P70 Search Manual",
+    "𝙱𝙰𝙲𝙺"
   }, nil, "Recomanded For Search Manual WH")
   if MP70 == nil then
   else
@@ -1039,8 +1039,6 @@ function P70AUTO()
   gg.clearResults()
   gg.toast("Wallhack Mediatek P70")
 end
-
-
 function P70MANUAL()
   if w == 1 then
     WHFIXMTK70()
@@ -1100,10 +1098,11 @@ end
 
 function COLLOR()
   BC = gg.choice({
-    "┏ COLLOR SNAPDRAGON",
-    "┏ COLLOR EXYNOS",
-    "☑BACK"
-  }, nil, "COLLOR PLAYERS")
+    "COLLOR SNAPDRAGON",
+    "COLLOR EXYNOS",
+	"COLLOR MEDIATEK",
+    "𝙱𝙰𝙲𝙺"
+  }, nil, " ᴄᴏᴘʏʀɪɢʜᴛ ® | 𝙱𝚢 𝙼𝙲𝙿𝙱𝙾™ - @𝚐𝙷𝚎𝚜𝚜𝚜_𝙱𝚘𝚢𝚜 ")
   if BC == nil then
   else
     if BC == 1 then
@@ -1113,6 +1112,9 @@ function COLLOR()
       CEXY()
     end
     if BC == 3 then
+      CLRMTK()
+    end	
+    if BC == 4 then
       HOME()
     end
   end
@@ -1128,8 +1130,8 @@ function CSNAP()
     "BLUE",
     "RAINBOW",
     "WHITE",
-    "☑BACK"
-  }, nil, "COLLOR SNAPDRAGON")
+    "BACK"
+  }, nil, " ᴄᴏᴘʏʀɪɢʜᴛ ® | 𝙱𝚢 𝙼𝙲𝙿𝙱𝙾™ - @𝚐𝙷𝚎𝚜𝚜𝚜_𝙱𝚘𝚢𝚜 ")
   if MCPBOCLR == nil then
   else
     if MCPBOCLR == 1 then
@@ -1235,8 +1237,8 @@ function CEXY()
     "Red Exynos 7870",
     "Yellow Exynos 7870",
     "Red Exynos 8890",
-    "[ BACK ]"
-  }, nil, "COLLOR EXYNOS")
+    "𝙱𝙰𝙲𝙺"
+  }, nil, " ᴄᴏᴘʏʀɪɢʜᴛ ® | 𝙱𝚢 𝙼𝙲𝙿𝙱𝙾™ - @𝚐𝙷𝚎𝚜𝚜𝚜_𝙱𝚘𝚢𝚜 ")
   if Cexynos1 == nil then
   else
     if Cexynos1[1] == true then
@@ -1271,7 +1273,6 @@ function CEXY()
     end
   end
 end
-
 function exy1()
   gg.clearResults()
   gg.setRanges(4)
@@ -1359,39 +1360,105 @@ function exy9()
   gg.toast("Exynos 8890 Red Active")
 end
 
+function CLRMTK()
+  BCmtk = gg.choice({
+    "Yellow",
+    "White All Mediatek",
+    "Red",
+    "Black All Mediatek",
+    "𝙱𝙰𝙲𝙺"
+  }, nil, " ᴄᴏᴘʏʀɪɢʜᴛ ® | 𝙱𝚢 𝙼𝙲𝙿𝙱𝙾™ - @𝚐𝙷𝚎𝚜𝚜𝚜_𝙱𝚘𝚢𝚜 ")
+  if BCmtk == nil then
+  else
+    if BCmtk == 1 then
+      CYMTK()
+    end
+    if BCmtk == 2 then
+      CWMTK()
+    end
+    if BCmtk == 3 then
+      CRMTK()
+    end
+    if BCmtk == 4 then
+      CBMTK()
+    end	
+    if BCmtk == 5 then
+      HOME()
+    end
+  end
+  MCPBO1 = -1
+end
+function CYMTK()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("16;32;40;48;40:41", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("36", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.toast("Yellow Active")
+end
+function CWMTK()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("573.70306396484;0.05499718338;1::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1)
+  gg.editAll("999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("White Active")
+end
+function CRMTK()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("8;16;32;48;40::169", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("38", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.toast("Red Active")
+end
+function CBMTK()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("573.70306396484;0.05499718338;1::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1)
+  gg.editAll("-999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Black Active")
+end
+
+
 function Weapon()
   MCWeapon = gg.multiChoice({
-    "┏ Less Recoil [Loby]",
-    "┏ No Recoil [Loby]",
-	"┏ AimLock Body [Loby]",
-	"┏ AimLock Head [Loby]",
-	"┏ Aimbot [Game]",
-	"┏ HS 50% [Land]",
-	"┏ HS 70% [Land]",
-    "┏ HS 99% [Land]",
-	"┏ HS Brutal [Land]",
-	"┏ Magic Bullet [Land - Traine]",
-	"┏ Damage++ [Game]",
-	"┏ 1 Hit [Game]",
-    "┏ Menu HeadShot Horor [Land]",	
-    "☑BACK"
-  }, nil, "Weapone Players ")
+    "Less Recoil [Loby]",
+    "No Recoil [Loby]",
+	"AimLock Enemy [Loby]",
+	"Aimbot [Game]",
+	"HS - MB 50% [Land]",
+	"HS - MB 70% [Land]",
+    "HS - MB 99% [Land]",
+	"HS Brutal [Land]",
+	"Magic Bullet [Land - Traine]",
+	"Damage++ [Game]",
+    "Menu HeadShot Horor [Land]",	
+    "𝙱𝙰𝙲𝙺"
+  }, nil, " ᴄᴏᴘʏʀɪɢʜᴛ ® | 𝙱𝚢 𝙼𝙲𝙿𝙱𝙾™ - @𝚐𝙷𝚎𝚜𝚜𝚜_𝙱𝚘𝚢𝚜 ")
 if MCWeapon == nil then
 else
 if MCWeapon[1] == true then lessrec()end
 if MCWeapon[2] == true then norec()end
 if MCWeapon[3] == true then aimlock()end
-if MCWeapon[4] == true then aimlockHD()end
-if MCWeapon[5] == true then aimbot360()end
-if MCWeapon[6] == true then mbhs1()end
-if MCWeapon[7] == true then mbhs2()end
-if MCWeapon[8] == true then mbhs3()end
-if MCWeapon[9] == true then mbhs4()end
-if MCWeapon[10] == true then mbhs5()end
-if MCWeapon[11] == true then Dmg()end
-if MCWeapon[12] == true then hit()end
-if MCWeapon[13] == true then HSWepone()end
-if MCWeapon[14] == true then HOME()end
+if MCWeapon[4] == true then aimbot360()end
+if MCWeapon[5] == true then mbhs1()end
+if MCWeapon[6] == true then mbhs2()end
+if MCWeapon[7] == true then mbhs3()end
+if MCWeapon[8] == true then mbhs4()end
+if MCWeapon[9] == true then mbhs6()end
+if MCWeapon[10] == true then Dmg()end
+if MCWeapon[11] == true then HSWepone()end
+if MCWeapon[12] == true then HOME()end
 end
 end
 function lessrec()
@@ -1650,11 +1717,11 @@ end
 
 function HSWepone()
   MCHS = gg.multiChoice({
-    "┏ (New)Less Recoil [Lobby]",
-	"┏ Auto HS 100% [Lobby]",
-    "┏ Auto HS Parah [Lobby]",
-	"┏ MB - HS Brutal [Lobby]",
-    "☑BACK"
+    "(New)Less Recoil [Lobby]",
+	"Auto HS 100% [Lobby]",
+    "Auto HS Parah [Lobby]",
+	"MB - HS Brutal [Lobby]",
+    "𝙱𝙰𝙲𝙺"
   }, nil, "READY BARBAR LANDING")
 if MCHS == nil then
 else
@@ -1704,17 +1771,16 @@ gg.alert("HATI - HATI DI RECORD")
   gg.toast("Magic Bullet 1000% Activated")
 end
 
-
 function PlayerInGame()
   MCPlayer = gg.choice({
-    "┏ Sit Down Sᴄᴏᴘᴇ[ᴏN]",
-    "┏ Sɪᴛ Down Sᴄᴏᴘᴇ[Oғғ]",
-	"┏ Fast Parasute[Land]",
-	"┏ Fast Landing[Land]",
-    "┏ Big Head[ᴏN]",
-    "┏ Big Head[Oғғ]",	
-    "☑BACK"
-  }, nil, "Hack Players")
+    "Sit Down Sᴄᴏᴘᴇ[ᴏN]",
+    "Sɪᴛ Down Sᴄᴏᴘᴇ[Oғғ]",
+	"Fast Parasute[Land]",
+	"Fast Landing[Land]",
+    "Big Head[ᴏN]",
+    "Big Head[Oғғ]",	
+    "𝙱𝙰𝙲𝙺"
+  }, nil, " ᴄᴏᴘʏʀɪɢʜᴛ ® | 𝙱𝚢 𝙼𝙲𝙿𝙱𝙾™ - @𝚐𝙷𝚎𝚜𝚜𝚜_𝙱𝚘𝚢𝚜 ")
   if MCPlayer == nil then
   else
     if MCPlayer == 1 then 
@@ -1817,13 +1883,12 @@ gg.toast("Big Head Off")
 gg.clearResults()
 end
 
-
 function AntenaInGame()
   MCAntena = gg.choice({
-    "┏ Antena Player [Game]",
-    "┏ Antena Ghillie [Game]",
-    "☑BACK"
-  }, nil, "Antena Players")
+    "Antena Player [Game]",
+    "Antena Ghillie [Game]",
+    "𝙱𝙰𝙲𝙺"
+  }, nil, " ᴄᴏᴘʏʀɪɢʜᴛ ® | 𝙱𝚢 𝙼𝙲𝙿𝙱𝙾™ - @𝚐𝙷𝚎𝚜𝚜𝚜_𝙱𝚘𝚢𝚜 ")
   if MCAntena == nil then
   else
     if MCAntena == 1 then
@@ -1860,16 +1925,16 @@ end
 
 function SpeedInGame()
   MCSpeed = gg.multiChoice({
-    "┏ Speed Player Micro",
-    "┏ Speed Players Flash [ON]\n  (Fitur Damage Weapon Wajib Active)",
-	"┏ Speed Players Flash [OFF]",
-	"┏ Damage Weapone For Speed Flash ON",
-    "┏ Speed UAZ",
-    "┏ Speed Dacia",	
-	"┏ Unlimited Bensin UAZ\n  (Jika Ganti UAZ, Active Kan Lagi)",
-	"┏ Flying UAZ-Jeep",
-    "☑BACK"
-  }, nil, "Speed Flash Wajib Koneksi Stabil")
+    " Speed Player Micro",
+    " Speed Players Flash [ON]\n  (Fitur Damage Weapon Wajib Active)",
+	" Speed Players Flash [OFF]",
+	" Damage Weapone For Speed Flash ON",
+    " Speed UAZ",
+    " Speed Dacia",	
+	" Unlimited Bensin UAZ\n  (Jika Ganti UAZ, Active Kan Lagi)",
+	" Flying UAZ-Jeep",
+    "𝙱𝙰𝙲𝙺"
+  }, nil, " ᴄᴏᴘʏʀɪɢʜᴛ ® | 𝙱𝚢 𝙼𝙲𝙿𝙱𝙾™ - @𝚐𝙷𝚎𝚜𝚜𝚜_𝙱𝚘𝚢𝚜 ")
 if MCSpeed == nil then
 else
 if MCSpeed[1] == true then speedmicro()end
@@ -2109,11 +2174,11 @@ end
 
 function ViewInGame()
   MCView = gg.choice({
-    "┏ Wide View 30% [Game]",
-    "┏ Wide View 60% [Game]",
-    "┏ Mode BlackSky [Exynos/Game]",
-    "☑BACK"
-  }, nil, "Mode View Players")
+    "Wide View 30% [Game]",
+    "Wide View 60% [Game]",
+    "Mode BlackSky [Exynos/Game]",
+    "𝙱𝙰𝙲𝙺"
+  }, nil, " ᴄᴏᴘʏʀɪɢʜᴛ ® | 𝙱𝚢 𝙼𝙲𝙿𝙱𝙾™ - @𝚐𝙷𝚎𝚜𝚜𝚜_𝙱𝚘𝚢𝚜 ")
   if MCView == nil then
   else
     if MCView == 1 then
@@ -2163,8 +2228,14 @@ function BsKy()
 end
 
 
-function exit() 
-gg.alert("👋😘 ➿➿ Bye - Bye MCPBO™ ➿➿ 👋😘")
+function CLOSE() 
+  print([[
+  
+𝚃𝚑𝚊𝚗𝚔𝚜 𝙵𝚘𝚛 𝚄𝚜𝚒𝚗𝚐 𝚂𝚌𝚛𝚒𝚙𝚝 𝙼𝚎𝚝𝚛𝚘𝙲𝚑𝚎𝚊𝚝_𝙿𝙱𝙾™
+
+ᴄᴏᴘʏʀɪɢʜᴛ ® | 𝙱𝚢 𝙼𝙲𝙿𝙱𝙾™ - @𝚐𝙷𝚎𝚜𝚜𝚜_𝙱𝚘𝚢𝚜 ]])
+gg.skipRestoreState()
+gg.setVisible(true)
 os.exit() 
 end 
 while true do
@@ -2172,7 +2243,6 @@ while true do
     MCPBO1 = 1
     gg.setVisible(false)
   end
-  gg.clearResults()
   if MCPBO1 == 1 then
     PERTAMA()
   end
