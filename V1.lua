@@ -12,7 +12,7 @@ date = os.date("%Y%m%d")
 if date >= Date then
   print([[⚠ Daamn....!!! SCRIPT EXPIRED ⚠
   
-NEW VERSION AVAILABLE Chat ᴄᴏᴘʏʀɪɢʜᴛ ® | 𝙱𝚢 𝙼𝙲𝙿𝙱𝙾™ - @𝚐𝙷𝚎𝚜𝚜𝚜_𝙱𝚘𝚢𝚜 - @gHesss_Boys]])
+NEW VERSION AVAILABLE Chat @𝚐𝙷𝚎𝚜𝚜𝚜_𝙱𝚘𝚢𝚜]])
   return
   end
  -- Type Your Script Codes Bellow and If Script Isn't Expired Then Script Will Run.
