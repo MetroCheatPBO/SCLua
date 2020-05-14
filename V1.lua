@@ -12,14 +12,14 @@ date = os.date("%Y%m%d")
 if date >= Date then
   print([[⚠ Daamn....!!! SCRIPT EXPIRED ⚠
   
-NEW VERSION AVAILABLE Chat @𝚐𝙷𝚎𝚜𝚜𝚜_𝙱𝚘𝚢𝚜]])
+NEW VERSION AVAILABLE Chat ᴄᴏᴘʏʀɪɢʜᴛ ® | 𝙱𝚢 𝙼𝙲𝙿𝙱𝙾™ - @𝚐𝙷𝚎𝚜𝚜𝚜_𝙱𝚘𝚢𝚜 - @gHesss_Boys]])
   return
   end
  -- Type Your Script Codes Bellow and If Script Isn't Expired Then Script Will Run.
 if gg.getTargetPackage() == 'com.tencent.ig' or gg.getTargetPackage() == 'com.rekoo.pubgm' or gg.getTargetPackage() == 'com.tencent.tmgp.pubgmhd' or gg.getTargetPackage() == 'com.pubg.krmobile' or gg.getTargetPackage() == 'com.vng.pubgmobile' or gg.getTargetPackage() == 'com.tencent.iglite' then
     gg.clearResults()
   else
-    print('⚠ HEY STUPID!!! WHERE GAME PUBG MOBILE...???? ⚠')
+    print('HEY STUPID!!! WHERE GAME PUBG MOBILE...???? ')
     os.exit()
   end
 gg.alert("𝙿𝚄𝙱𝙶 𝙶𝙻𝙾𝙱𝙰𝙻 - 𝚂𝙴𝙰𝚂𝙾𝙽 𝟷𝟹\n\n𝙶𝚄𝙽𝙰𝙺𝙰𝙽 𝙰𝙺𝚄𝙽 𝚃𝚄𝙼𝙱𝙰𝙻 𝚃𝙴𝚁𝙻𝙴𝙱𝙸𝙷 𝙳𝙰𝙷𝚄𝙻𝚄\n𝙿𝙴𝚁𝚃𝙰𝙼𝙰 𝙻𝙾𝙶𝙸𝙽 - 𝙰𝙺𝚃𝙸𝙵𝙺𝙰𝙽 𝙵𝙸𝚃𝚄𝚁' 𝙻𝙴𝙱𝙸𝙷 𝙱𝙰𝙸𝙺 𝙳𝙸 𝚃𝚁𝙰𝙸𝙽𝙴𝚁 𝙼𝙾𝙳𝙴\n𝙿𝙻𝙰𝚈𝙸𝙽𝙶 𝙱𝚁𝚄𝚃𝙰𝙻 𝚃𝙸𝙳𝙰𝙺 𝙳𝙸𝚂𝙰𝚁𝙰𝙽𝙺𝙰𝙽\n\n𝚁𝚎𝚐𝚊𝚛𝚍𝚜 𝙲𝚛𝚎𝚊𝚝𝚎𝚍  𝙱𝚢 𝙼𝙲𝙿𝙱𝙾™ - @𝚐𝙷𝚎𝚜𝚜𝚜_𝙱𝚘𝚢𝚜 ")
@@ -1442,7 +1442,7 @@ function Weapon()
 	"HS Brutal [Land]",
 	"Magic Bullet [Land - Traine]",
 	"Damage++ [Game]",
-    "Menu HeadShot Horor [Land]",	
+    "Menu HeadShot v1 [Land]",	
     "𝙱𝙰𝙲𝙺"
   }, nil, " ᴄᴏᴘʏʀɪɢʜᴛ ® | 𝙱𝚢 𝙼𝙲𝙿𝙱𝙾™ - @𝚐𝙷𝚎𝚜𝚜𝚜_𝙱𝚘𝚢𝚜 ")
 if MCWeapon == nil then
@@ -1746,28 +1746,67 @@ end
 function AHS()
 gg.alert("HATI - HATI DI RECORD")
   gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.setRanges(131072)
+  gg.searchNumber("-88.66608428955;26:512", 16, false, 536870912, 0, -1)
+  gg.searchNumber("26", 16, false, 536870912, 0, -1)
+  gg.getResults(2)
+  gg.editAll("-460", 16)
+  gg.clearResults()
+  gg.searchNumber("-88.73961639404;28:512", 16, false, 536870912, 0, -1)
+  gg.searchNumber("28", 16, false, 536870912, 0, -1)
+  gg.getResults(2)
+  gg.editAll("-560", 16)
+  gg.clearResults()
+  gg.setRanges(32)
+  gg.searchNumber("9.201618;30.5;25", 16, false, 536870912, 0, -1)
+  gg.searchNumber("25;30.5", 16, false, 536870912, 0, -1)
   gg.getResults(10)
-  gg.editAll("300", gg.TYPE_FLOAT)
-  gg.toast("Auto Headshot Lobby 150%")
+  gg.editAll("100", 16)
+  gg.clearResults()
+  gg.toast("Auto Headshot Lobby 50%")
 end
 function BHS3()
 gg.alert("HATI - HATI DI RECORD")
   gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("-460", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("-560", gg.TYPE_FLOAT)
+  gg.clearResults()
   gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10)
-  gg.editAll("500", gg.TYPE_FLOAT)
-  gg.toast("Auto Headshot Lobby 300%")
+  gg.editAll("150", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Auto Headshot Lobby 70%")
 end
 function MB100()
 gg.alert("HATI - HATI DI RECORD")
   gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("-460", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("-560", gg.TYPE_FLOAT)
+  gg.clearResults()
   gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10)
   gg.editAll("1000", gg.TYPE_FLOAT)
+  gg.clearResults()
   gg.toast("Magic Bullet 1000% Activated")
 end
 
