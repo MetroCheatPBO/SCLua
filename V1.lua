@@ -1583,7 +1583,7 @@ gg.alert("HEADSHOT 50% ")
   gg.setRanges(gg.REGION_ANONYMOUS)
   gg.searchNumber("30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10)
-  gg.editAll("100", gg.TYPE_FLOAT)
+  gg.editAll("55", gg.TYPE_FLOAT)
   gg.toast("Headshot 50%")
 end
 function mbhs2() 
