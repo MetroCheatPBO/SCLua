@@ -118,75 +118,63 @@ gg.searchNumber("67109377;12547::100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -
 gg.searchNumber("12547", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 jg = gg.getResults(100)
 sl = gg.getResultCount()
+gg.alert("Bypass 1 Done")
 if 100 < sl then
-sl = 100
-end
-do
-do
-for _FORV_3_ = 1, sl do
-dzy = jg[_FORV_3_].address
-gg.addListItems({
- [1] = {
- address = dzy,
- flags = gg.TYPE_DWORD,
- freeze = true,
- value = 0
- }
-})
-end
-end
-end
-gg.toast("25％")
+  sl = 100
+end--Ꮲsᴀʏᴄʜᴏ⸙
+for i = 1, sl do
+  dzy = jg[i].address
+  gg.addListItems({
+    [1] = {
+      address = dzy,
+      flags = gg.TYPE_DWORD,
+      freeze = true,
+      value = 0
+    }
+  })
+end--Ꮲsᴀʏᴄʜᴏ⸙
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("0;0~20;131586::9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("131586", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 jg = gg.getResults(100)
 sl = gg.getResultCount()
+gg.alert("Bypass 2 Done")
 if 100 < sl then
-sl = 100
-end
-do
-do
-for _FORV_3_ = 1, sl do
-dzy = jg[_FORV_3_].address
-gg.addListItems({
- [1] = {
- address = dzy,
- flags = gg.TYPE_DWORD,
- freeze = true,
- value = 0
- }
-})
-end
-end
-end
-gg.toast("50％")
+  sl = 100
+end--Ꮲsᴀʏᴄʜᴏ⸙
+for i = 1, sl do
+  dzy = jg[i].address
+  gg.addListItems({
+    [1] = {
+      address = dzy,
+      flags = gg.TYPE_DWORD,
+      freeze = true,
+      value = 0
+    }
+  })
+end--Ꮲsᴀʏᴄʜᴏ⸙
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("67109377;12547::100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("12547", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 jg = gg.getResults(100)
 sl = gg.getResultCount()
+gg.alert("Bypass 3 Done")
 if 100 < sl then
-sl = 100
-end
-do
-do
-for _FORV_3_ = 1, sl do
-dzy = jg[_FORV_3_].address
-gg.addListItems({
- [1] = {
- address = dzy,
- flags = gg.TYPE_DWORD,
- freeze = true,
- value = 0
- }
-})
-end
-end
-end
-gg.toast("75％")
+  sl = 100
+end--Ꮲsᴀʏᴄʜᴏ⸙
+for i = 1, sl do
+  dzy = jg[i].address
+  gg.addListItems({
+    [1] = {
+      address = dzy,
+      flags = gg.TYPE_DWORD,
+      freeze = true,
+      value = 0
+    }
+  })
+end--Ꮲsᴀʏᴄʜᴏ⸙
 gg.clearResults()
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
@@ -194,24 +182,21 @@ gg.searchNumber("0;0~20;131586::9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("131586", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 jg = gg.getResults(100)
 sl = gg.getResultCount()
+gg.alert("Bypass 4 Done")
 if 100 < sl then
-sl = 100
-end
-do
-do
-for _FORV_3_ = 1, sl do
-dzy = jg[_FORV_3_].address
-gg.addListItems({
- [1] = {
- address = dzy,
- flags = gg.TYPE_DWORD,
- freeze = true,
- value = 0
- }
-})
-end
-end
-end
+  sl = 100
+end--Ꮲsᴀʏᴄʜᴏ⸙
+for i = 1, sl do
+  dzy = jg[i].address
+  gg.addListItems({
+    [1] = {
+      address = dzy,
+      flags = gg.TYPE_DWORD,
+      freeze = true,
+      value = 0
+    }
+  })
+end--
 gg.toast("100％")
 gg.alert("BYPASS 𝙼𝙲𝙿𝙱𝙾™ DONE!!!")
 gg.clearResults()
