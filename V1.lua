@@ -25,6 +25,96 @@ if gg.getTargetPackage() == 'com.tencent.ig' or gg.getTargetPackage() == 'com.re
 gg.alert("𝙿𝚄𝙱𝙶 𝙶𝙻𝙾𝙱𝙰𝙻 - 𝚂𝙴𝙰𝚂𝙾𝙽 𝟷𝟹\n\n𝙶𝚄𝙽𝙰𝙺𝙰𝙽 𝙰𝙺𝚄𝙽 𝚃𝚄𝙼𝙱𝙰𝙻 𝚃𝙴𝚁𝙻𝙴𝙱𝙸𝙷 𝙳𝙰𝙷𝚄𝙻𝚄\n𝙿𝙴𝚁𝚃𝙰𝙼𝙰 𝙻𝙾𝙶𝙸𝙽 - 𝙰𝙺𝚃𝙸𝙵𝙺𝙰𝙽 𝙵𝙸𝚃𝚄𝚁' 𝙻𝙴𝙱𝙸𝙷 𝙱𝙰𝙸𝙺 𝙳𝙸 𝚃𝚁𝙰𝙸𝙽𝙴𝚁 𝙼𝙾𝙳𝙴\n𝙿𝙻𝙰𝚈𝙸𝙽𝙶 𝙱𝚁𝚄𝚃𝙰𝙻 𝚃𝙸𝙳𝙰𝙺 𝙳𝙸𝚂𝙰𝚁𝙰𝙽𝙺𝙰𝙽\n\n𝚁𝚎𝚐𝚊𝚛𝚍𝚜 𝙲𝚛𝚎𝚊𝚝𝚎𝚍  𝙱𝚢 𝙼𝙲𝙿𝙱𝙾™ - @𝚐𝙷𝚎𝚜𝚜𝚜_𝙱𝚘𝚢𝚜 ")
 
 
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("67109377;12547::100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("12547", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+jg = gg.getResults(100)
+sl = gg.getResultCount()
+gg.alert("Bypass 1 Done")
+if 100 < sl then
+  sl = 100
+end--Ꮲsᴀʏᴄʜᴏ⸙
+for i = 1, sl do
+  dzy = jg[i].address
+  gg.addListItems({
+    [1] = {
+      address = dzy,
+      flags = gg.TYPE_DWORD,
+      freeze = true,
+      value = 0
+    }
+  })
+end--Ꮲsᴀʏᴄʜᴏ⸙
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("0;0~20;131586::9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("131586", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+jg = gg.getResults(100)
+sl = gg.getResultCount()
+gg.alert("Bypass 2 Done")
+if 100 < sl then
+  sl = 100
+end--Ꮲsᴀʏᴄʜᴏ⸙
+for i = 1, sl do
+  dzy = jg[i].address
+  gg.addListItems({
+    [1] = {
+      address = dzy,
+      flags = gg.TYPE_DWORD,
+      freeze = true,
+      value = 0
+    }
+  })
+end--Ꮲsᴀʏᴄʜᴏ⸙
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("67109377;12547::100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("12547", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+jg = gg.getResults(100)
+sl = gg.getResultCount()
+gg.alert("Bypass 3 Done")
+if 100 < sl then
+  sl = 100
+end--Ꮲsᴀʏᴄʜᴏ⸙
+for i = 1, sl do
+  dzy = jg[i].address
+  gg.addListItems({
+    [1] = {
+      address = dzy,
+      flags = gg.TYPE_DWORD,
+      freeze = true,
+      value = 0
+    }
+  })
+end--Ꮲsᴀʏᴄʜᴏ⸙
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("0;0~20;131586::9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("131586", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+jg = gg.getResults(100)
+sl = gg.getResultCount()
+gg.alert("Bypass 4 Done")
+if 100 < sl then
+  sl = 100
+end--Ꮲsᴀʏᴄʜᴏ⸙
+for i = 1, sl do
+  dzy = jg[i].address
+  gg.addListItems({
+    [1] = {
+      address = dzy,
+      flags = gg.TYPE_DWORD,
+      freeze = true,
+      value = 0
+    }
+  })
+end--
+gg.toast("100％")
+gg.alert("BYPASS 𝙼𝙲𝙿𝙱𝙾™ DONE!!!")
+gg.clearResults()
+
+
 PERTAMA = 1
 function PERTAMA()
 CROT = gg.multiChoice({
