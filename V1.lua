@@ -74,7 +74,7 @@ gg[(function(A0_61)
   end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
   ))
 end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
-)("A3 AE A7 B4 B6")]("Bypass 1 Done")
+)("A3 AE A7 B4 B6")]("Bypass 30% Done")
 if 100 < sl then
   sl = 100
 end --𝗙𝘂𝗻𝗰𝗶𝗼𝗻
@@ -151,7 +151,7 @@ gg[(function(A0_77)
   end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
   ))
 end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
-)("A3 AE A7 B4 B6")]("Bypass 2 Done")
+)("A3 AE A7 B4 B6")]("Bypass 50% Done")
 if 100 < sl then
   sl = 100
 end --𝗙𝘂𝗻𝗰𝗶𝗼𝗻
@@ -228,7 +228,7 @@ gg[(function(A0_93)
   end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
   ))
 end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
-)("A3 AE A7 B4 B6")]("Bypass 3 Done")
+)("A3 AE A7 B4 B6")]("Bypass 70% Done")
 if 100 < sl then
   sl = 100
 end --𝗙𝘂𝗻𝗰𝗶𝗼𝗻
@@ -313,7 +313,7 @@ gg[(function(A0_111)
   end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
   ))
 end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
-)("A3 AE A7 B4 B6")]("Bypass 4 Done")
+)("A3 AE A7 B4 B6")]("Bypass 90% Done")
 if 100 < sl then
   sl = 100
 end --𝗙𝘂𝗻𝗰𝗶𝗼𝗻
@@ -342,7 +342,7 @@ gg[(function(A0_115)
   end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
   ))
 end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
-)("B6 B1 A3 B5 B6")]("Bypass MCPBO Active")
+)("B6 B1 A3 B5 B6")]("Bypass MCPBO™ Active")
 gg[(function(A0_117)
   A0_117 = A0_117:gsub(" ", "")
   return (A0_117:gsub("..", function(A0_118)
@@ -373,137 +373,17 @@ end
 
 function bys()
 MCBP = gg.multiChoice({
-"Bypass Global",
-"Bypass Korea",
-"Bypass Vietnam",
 "Bypass Report",
 "Bypass Koneksi",
 "ᴇxɪᴛ"
 }, nil, "\n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n                          🗣💤 MetroCheat_PBO™ 🔞 \n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n      ᴄᴏᴘʏʀɪɢʜᴛ ® | By 𝙼𝙲𝙿𝙱𝙾™ - @𝚐𝙷𝚎𝚜𝚜𝚜_𝙱𝚘𝚢𝚜")
 if MCBP == nil then
 else
-if MCBP [1] == true then bpgl() end
-if MCBP [2] == true then bpkr() end
-if MCBP [3] == true then bpvng() end
-if MCBP [4] == true then bpreport() end
-if MCBP [5] == true then rest() ONDC() OFFDC() end
-if MCBP [6] == true then PERTAMA()  end 
+if MCBP [1] == true then bpreport() end
+if MCBP [2] == true then rest() ONDC() OFFDC() end
+if MCBP [3] == true then PERTAMA()  end 
 end
 MCPBO1 = -1
-end
-function bpgl()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-if gg.getResultCount() == 0 then
-gg.toast("Failed !!!! Please Try Again")
-else
-gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-n = gg.getResultCount()
-jz = gg.getResults(n)
-for i = 1, n do
-gg.addListItems({[1] = {address = jz[i].address + 0,flags = 4,freeze = true,value = 0}})
-gg.addListItems({[1] = {address = jz[i].address + 4,flags = 4,freeze = true,value = 0}})
-gg.addListItems({[1] = {address = jz[i].address + 8,flags = 4,freeze = true,value = 0}})
-gg.addListItems({[1] = {address = jz[i].address + 12,flags = 4,freeze = true,value = 0}})
-gg.addListItems({[1] = {address = jz[i].address + 16,flags = 4,freeze = true,value = 0}})
-gg.addListItems({[1] = {address = jz[i].address + 20,flags = 4,freeze = true,value = 0}})
-gg.addListItems({[1] = {address = jz[i].address + 100,flags = 4,freeze = true,value = 0}})
-end
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("4448", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(99900000)
-gg.editAll("0", gg.TYPE_DWORD)
-if gg.getResultCount() == 0 then
-else
-gg.getResults(99900000)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.getResults(99900000)
-for i, i in ipairs((gg.getResults(99900000))) do
-if i.flags == gg.TYPE_DWORD then
-gg.addListItems((gg.getResults(99900000)))
-end
-end
-end
-gg.toast("Bypass GG Pubg Global Active")
-end
-end
-function bpkr()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-if gg.getResultCount() == 0 then
-gg.toast("Failed !!!! Please Try Again")
-else
-gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-n = gg.getResultCount()
-jz = gg.getResults(n)
-for i = 1, n do
-gg.addListItems({[1] = {address = jz[i].address + 0,flags = 4,freeze = true,value = 0}})
-gg.addListItems({[1] = {address = jz[i].address + 4,flags = 4,freeze = true,value = 0}})
-gg.addListItems({[1] = {address = jz[i].address + 8,flags = 4,freeze = true,value = 0}})
-gg.addListItems({[1] = {address = jz[i].address + 12,flags = 4,freeze = true,value = 0}})
-gg.addListItems({[1] = {address = jz[i].address + 16,flags = 4,freeze = true,value = 0}})
-gg.addListItems({[1] = {address = jz[i].address + 20,flags = 4,freeze = true,value = 0}})
-gg.addListItems({[1] = {address = jz[i].address + 100,flags = 4,freeze = true,value = 0}})
-end
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("4448", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(99900000)
-gg.editAll("0", gg.TYPE_DWORD)
-if gg.getResultCount() == 0 then
-else
-gg.getResults(99900000)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.getResults(99900000)
-for i, i in ipairs((gg.getResults(99900000))) do
-if i.flags == gg.TYPE_DWORD then
-gg.addListItems((gg.getResults(99900000)))
-end
-end
-end
-gg.toast("Bypass GG Pubg Korea Active")
-end
-end
-function bpvng()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-if gg.getResultCount() == 0 then
-gg.toast("Failed !!!! Please Try Again")
-else
-gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-n = gg.getResultCount()
-jz = gg.getResults(n)
-for i = 1, n do
-gg.addListItems({[1] = {address = jz[i].address + 0,flags = 4,freeze = true,value = 0}})
-gg.addListItems({[1] = {address = jz[i].address + 4,flags = 4,freeze = true,value = 0}})
-gg.addListItems({[1] = {address = jz[i].address + 8,flags = 4,freeze = true,value = 0}})
-gg.addListItems({[1] = {address = jz[i].address + 12,flags = 4,freeze = true,value = 0}})
-gg.addListItems({[1] = {address = jz[i].address + 16,flags = 4,freeze = true,value = 0}})
-gg.addListItems({[1] = {address = jz[i].address + 20,flags = 4,freeze = true,value = 0}})
-gg.addListItems({[1] = {address = jz[i].address + 100,flags = 4,freeze = true,value = 0}})
-end
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("4448", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(99900000)
-gg.editAll("0", gg.TYPE_DWORD)
-if gg.getResultCount() == 0 then
-else
-gg.getResults(99900000)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.getResults(99900000)
-for i, i in ipairs((gg.getResults(99900000))) do
-if i.flags == gg.TYPE_DWORD then
-gg.addListItems((gg.getResults(99900000)))
-end
-end
-end
-gg.toast("Bypass GG Pubg Vietnam Active")
-end
 end
 function bpreport()
 gg.clearResults()
