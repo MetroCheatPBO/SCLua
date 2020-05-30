@@ -15,13 +15,7 @@ if date >= Date then
 NEW VERSION AVAILABLE Chat ᴄᴏᴘʏʀɪɢʜᴛ ® | 𝙱𝚢 𝙼𝙲𝙿𝙱𝙾™ - @𝚐𝙷𝚎𝚜𝚜𝚜_𝙱𝚘𝚢𝚜 - @gHesss_Boys]])
   return
   end
- -- Type Your Script Codes Bellow and If Script Isn't Expired Then Script Will Run.
-if gg.getTargetPackage() == 'com.tencent.ig' or gg.getTargetPackage() == 'com.rekoo.pubgm' or gg.getTargetPackage() == 'com.tencent.tmgp.pubgmhd' or gg.getTargetPackage() == 'com.pubg.krmobile' or gg.getTargetPackage() == 'com.vng.pubgmobile' or gg.getTargetPackage() == 'com.tencent.iglite' then
-    gg.clearResults()
-  else
-    print('HEY STUPID!!! WHERE GAME PUBG MOBILE...???? ')
-    os.exit()
-  end
+
 gg.alert("𝙿𝚄𝙱𝙶 𝙶𝙻𝙾𝙱𝙰𝙻 - 𝚂𝙴𝙰𝚂𝙾𝙽 𝟷𝟹\n\n𝙶𝚄𝙽𝙰𝙺𝙰𝙽 𝙰𝙺𝚄𝙽 𝚃𝚄𝙼𝙱𝙰𝙻 𝚃𝙴𝚁𝙻𝙴𝙱𝙸𝙷 𝙳𝙰𝙷𝚄𝙻𝚄\n𝙿𝙴𝚁𝚃𝙰𝙼𝙰 𝙻𝙾𝙶𝙸𝙽 - 𝙰𝙺𝚃𝙸𝙵𝙺𝙰𝙽 𝙵𝙸𝚃𝚄𝚁' 𝙻𝙴𝙱𝙸𝙷 𝙱𝙰𝙸𝙺 𝙳𝙸 𝚃𝚁𝙰𝙸𝙽𝙴𝚁 𝙼𝙾𝙳𝙴\n𝙿𝙻𝙰𝚈𝙸𝙽𝙶 𝙱𝚁𝚄𝚃𝙰𝙻 𝚃𝙸𝙳𝙰𝙺 𝙳𝙸𝚂𝙰𝚁𝙰𝙽𝙺𝙰𝙽\n\n𝚁𝚎𝚐𝚊𝚛𝚍𝚜 𝙲𝚛𝚎𝚊𝚝𝚎𝚍  𝙱𝚢 𝙼𝙲𝙿𝙱𝙾™ - @𝚐𝙷𝚎𝚜𝚜𝚜_𝙱𝚘𝚢𝚜 ")
 
 
