@@ -25,19 +25,75 @@ if gg.getTargetPackage() == 'com.tencent.ig' or gg.getTargetPackage() == 'com.re
 gg.alert("𝙿𝚄𝙱𝙶 𝙶𝙻𝙾𝙱𝙰𝙻 - 𝚂𝙴𝙰𝚂𝙾𝙽 𝟷𝟹\n\n𝙶𝚄𝙽𝙰𝙺𝙰𝙽 𝙰𝙺𝚄𝙽 𝚃𝚄𝙼𝙱𝙰𝙻 𝚃𝙴𝚁𝙻𝙴𝙱𝙸𝙷 𝙳𝙰𝙷𝚄𝙻𝚄\n𝙿𝙴𝚁𝚃𝙰𝙼𝙰 𝙻𝙾𝙶𝙸𝙽 - 𝙰𝙺𝚃𝙸𝙵𝙺𝙰𝙽 𝙵𝙸𝚃𝚄𝚁' 𝙻𝙴𝙱𝙸𝙷 𝙱𝙰𝙸𝙺 𝙳𝙸 𝚃𝚁𝙰𝙸𝙽𝙴𝚁 𝙼𝙾𝙳𝙴\n𝙿𝙻𝙰𝚈𝙸𝙽𝙶 𝙱𝚁𝚄𝚃𝙰𝙻 𝚃𝙸𝙳𝙰𝙺 𝙳𝙸𝚂𝙰𝚁𝙰𝙽𝙺𝙰𝙽\n\n𝚁𝚎𝚐𝚊𝚛𝚍𝚜 𝙲𝚛𝚎𝚊𝚝𝚎𝚍  𝙱𝚢 𝙼𝙲𝙿𝙱𝙾™ - @𝚐𝙷𝚎𝚜𝚜𝚜_𝙱𝚘𝚢𝚜 ")
 
 
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("67109377;12547::100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("12547", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-jg = gg.getResults(100)
-sl = gg.getResultCount()
-gg.alert("Bypass 1 Done")
+gg[(function(A0_49)
+  A0_49 = A0_49:gsub(" ", "")
+  return (A0_49:gsub("..", function(A0_50)
+    return string.char(tonumber(A0_50, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("A5 AE A7 A3 B4 94 A7 B5 B7 AE B6 B5")]()
+gg[(function(A0_51)
+  A0_51 = A0_51:gsub(" ", "")
+  return (A0_51:gsub("..", function(A0_52)
+    return string.char(tonumber(A0_52, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("B5 A7 B6 94 A3 B0 A9 A7 B5")](gg.REGION_C_ALLOC)
+gg[(function(A0_53)
+  A0_53 = A0_53:gsub(" ", "")
+  return (A0_53:gsub("..", function(A0_54)
+    return string.char(tonumber(A0_54, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("B5 A7 A3 B4 A5 AA 90 B7 AF A4 A7 B4")]("67109377;12547::100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg[(function(A0_55)
+  A0_55 = A0_55:gsub(" ", "")
+  return (A0_55:gsub("..", function(A0_56)
+    return string.char(tonumber(A0_56, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("B5 A7 A3 B4 A5 AA 90 B7 AF A4 A7 B4")]("12547", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+jg = gg[(function(A0_57)
+  A0_57 = A0_57:gsub(" ", "")
+  return (A0_57:gsub("..", function(A0_58)
+    return string.char(tonumber(A0_58, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("A9 A7 B6 94 A7 B5 B7 AE B6 B5")](100)
+sl = gg[(function(A0_59)
+  A0_59 = A0_59:gsub(" ", "")
+  return (A0_59:gsub("..", function(A0_60)
+    return string.char(tonumber(A0_60, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("A9 A7 B6 94 A7 B5 B7 AE B6 85 B1 B7 B0 B6")]()
+gg[(function(A0_61)
+  A0_61 = A0_61:gsub(" ", "")
+  return (A0_61:gsub("..", function(A0_62)
+    return string.char(tonumber(A0_62, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("A3 AE A7 B4 B6")]("Bypass 1 Done")
 if 100 < sl then
   sl = 100
-end--Ꮲsᴀʏᴄʜᴏ⸙
+end --𝗙𝘂𝗻𝗰𝗶𝗼𝗻
 for i = 1, sl do
   dzy = jg[i].address
-  gg.addListItems({
+  gg[(function(A0_63)
+    A0_63 = A0_63:gsub(" ", "")
+    return (A0_63:gsub("..", function(A0_64)
+      return string.char(tonumber(A0_64, 16) - 66)
+    end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+    ))
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  )("A3 A6 A6 8E AB B5 B6 8B B6 A7 AF B5")]({
     [1] = {
       address = dzy,
       flags = gg.TYPE_DWORD,
@@ -45,20 +101,76 @@ for i = 1, sl do
       value = 0
     }
   })
-end--Ꮲsᴀʏᴄʜᴏ⸙
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("0;0~20;131586::9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("131586", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-jg = gg.getResults(100)
-sl = gg.getResultCount()
-gg.alert("Bypass 2 Done")
+end --𝗙𝗼𝗿
+gg[(function(A0_65)
+  A0_65 = A0_65:gsub(" ", "")
+  return (A0_65:gsub("..", function(A0_66)
+    return string.char(tonumber(A0_66, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("A5 AE A7 A3 B4 94 A7 B5 B7 AE B6 B5")]()
+gg[(function(A0_67)
+  A0_67 = A0_67:gsub(" ", "")
+  return (A0_67:gsub("..", function(A0_68)
+    return string.char(tonumber(A0_68, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("B5 A7 B6 94 A3 B0 A9 A7 B5")](gg.REGION_C_ALLOC)
+gg[(function(A0_69)
+  A0_69 = A0_69:gsub(" ", "")
+  return (A0_69:gsub("..", function(A0_70)
+    return string.char(tonumber(A0_70, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("B5 A7 A3 B4 A5 AA 90 B7 AF A4 A7 B4")]("0;0~20;131586::9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg[(function(A0_71)
+  A0_71 = A0_71:gsub(" ", "")
+  return (A0_71:gsub("..", function(A0_72)
+    return string.char(tonumber(A0_72, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("B5 A7 A3 B4 A5 AA 90 B7 AF A4 A7 B4")]("131586", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+jg = gg[(function(A0_73)
+  A0_73 = A0_73:gsub(" ", "")
+  return (A0_73:gsub("..", function(A0_74)
+    return string.char(tonumber(A0_74, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("A9 A7 B6 94 A7 B5 B7 AE B6 B5")](100)
+sl = gg[(function(A0_75)
+  A0_75 = A0_75:gsub(" ", "")
+  return (A0_75:gsub("..", function(A0_76)
+    return string.char(tonumber(A0_76, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("A9 A7 B6 94 A7 B5 B7 AE B6 85 B1 B7 B0 B6")]()
+gg[(function(A0_77)
+  A0_77 = A0_77:gsub(" ", "")
+  return (A0_77:gsub("..", function(A0_78)
+    return string.char(tonumber(A0_78, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("A3 AE A7 B4 B6")]("Bypass 2 Done")
 if 100 < sl then
   sl = 100
-end--Ꮲsᴀʏᴄʜᴏ⸙
+end --𝗙𝘂𝗻𝗰𝗶𝗼𝗻
 for i = 1, sl do
   dzy = jg[i].address
-  gg.addListItems({
+  gg[(function(A0_79)
+    A0_79 = A0_79:gsub(" ", "")
+    return (A0_79:gsub("..", function(A0_80)
+      return string.char(tonumber(A0_80, 16) - 66)
+    end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+    ))
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  )("A3 A6 A6 8E AB B5 B6 8B B6 A7 AF B5")]({
     [1] = {
       address = dzy,
       flags = gg.TYPE_DWORD,
@@ -66,20 +178,76 @@ for i = 1, sl do
       value = 0
     }
   })
-end--Ꮲsᴀʏᴄʜᴏ⸙
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("67109377;12547::100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("12547", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-jg = gg.getResults(100)
-sl = gg.getResultCount()
-gg.alert("Bypass 3 Done")
+end --𝗙𝗼𝗿
+gg[(function(A0_81)
+  A0_81 = A0_81:gsub(" ", "")
+  return (A0_81:gsub("..", function(A0_82)
+    return string.char(tonumber(A0_82, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("A5 AE A7 A3 B4 94 A7 B5 B7 AE B6 B5")]()
+gg[(function(A0_83)
+  A0_83 = A0_83:gsub(" ", "")
+  return (A0_83:gsub("..", function(A0_84)
+    return string.char(tonumber(A0_84, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("B5 A7 B6 94 A3 B0 A9 A7 B5")](gg.REGION_C_ALLOC)
+gg[(function(A0_85)
+  A0_85 = A0_85:gsub(" ", "")
+  return (A0_85:gsub("..", function(A0_86)
+    return string.char(tonumber(A0_86, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("B5 A7 A3 B4 A5 AA 90 B7 AF A4 A7 B4")]("67109377;12547::100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg[(function(A0_87)
+  A0_87 = A0_87:gsub(" ", "")
+  return (A0_87:gsub("..", function(A0_88)
+    return string.char(tonumber(A0_88, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("B5 A7 A3 B4 A5 AA 90 B7 AF A4 A7 B4")]("12547", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+jg = gg[(function(A0_89)
+  A0_89 = A0_89:gsub(" ", "")
+  return (A0_89:gsub("..", function(A0_90)
+    return string.char(tonumber(A0_90, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("A9 A7 B6 94 A7 B5 B7 AE B6 B5")](100)
+sl = gg[(function(A0_91)
+  A0_91 = A0_91:gsub(" ", "")
+  return (A0_91:gsub("..", function(A0_92)
+    return string.char(tonumber(A0_92, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("A9 A7 B6 94 A7 B5 B7 AE B6 85 B1 B7 B0 B6")]()
+gg[(function(A0_93)
+  A0_93 = A0_93:gsub(" ", "")
+  return (A0_93:gsub("..", function(A0_94)
+    return string.char(tonumber(A0_94, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("A3 AE A7 B4 B6")]("Bypass 3 Done")
 if 100 < sl then
   sl = 100
-end--Ꮲsᴀʏᴄʜᴏ⸙
+end --𝗙𝘂𝗻𝗰𝗶𝗼𝗻
 for i = 1, sl do
   dzy = jg[i].address
-  gg.addListItems({
+  gg[(function(A0_95)
+    A0_95 = A0_95:gsub(" ", "")
+    return (A0_95:gsub("..", function(A0_96)
+      return string.char(tonumber(A0_96, 16) - 66)
+    end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+    ))
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  )("A3 A6 A6 8E AB B5 B6 8B B6 A7 AF B5")]({
     [1] = {
       address = dzy,
       flags = gg.TYPE_DWORD,
@@ -87,21 +255,84 @@ for i = 1, sl do
       value = 0
     }
   })
-end--Ꮲsᴀʏᴄʜᴏ⸙
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("0;0~20;131586::9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("131586", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-jg = gg.getResults(100)
-sl = gg.getResultCount()
-gg.alert("Bypass 4 Done")
+end --𝗙𝗼𝗿
+gg[(function(A0_97)
+  A0_97 = A0_97:gsub(" ", "")
+  return (A0_97:gsub("..", function(A0_98)
+    return string.char(tonumber(A0_98, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("A5 AE A7 A3 B4 94 A7 B5 B7 AE B6 B5")]()
+gg[(function(A0_99)
+  A0_99 = A0_99:gsub(" ", "")
+  return (A0_99:gsub("..", function(A0_100)
+    return string.char(tonumber(A0_100, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("A5 AE A7 A3 B4 94 A7 B5 B7 AE B6 B5")]()
+gg[(function(A0_101)
+  A0_101 = A0_101:gsub(" ", "")
+  return (A0_101:gsub("..", function(A0_102)
+    return string.char(tonumber(A0_102, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("B5 A7 B6 94 A3 B0 A9 A7 B5")](gg.REGION_C_ALLOC)
+gg[(function(A0_103)
+  A0_103 = A0_103:gsub(" ", "")
+  return (A0_103:gsub("..", function(A0_104)
+    return string.char(tonumber(A0_104, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("B5 A7 A3 B4 A5 AA 90 B7 AF A4 A7 B4")]("0;0~20;131586::9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg[(function(A0_105)
+  A0_105 = A0_105:gsub(" ", "")
+  return (A0_105:gsub("..", function(A0_106)
+    return string.char(tonumber(A0_106, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("B5 A7 A3 B4 A5 AA 90 B7 AF A4 A7 B4")]("131586", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+jg = gg[(function(A0_107)
+  A0_107 = A0_107:gsub(" ", "")
+  return (A0_107:gsub("..", function(A0_108)
+    return string.char(tonumber(A0_108, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("A9 A7 B6 94 A7 B5 B7 AE B6 B5")](100)
+sl = gg[(function(A0_109)
+  A0_109 = A0_109:gsub(" ", "")
+  return (A0_109:gsub("..", function(A0_110)
+    return string.char(tonumber(A0_110, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("A9 A7 B6 94 A7 B5 B7 AE B6 85 B1 B7 B0 B6")]()
+gg[(function(A0_111)
+  A0_111 = A0_111:gsub(" ", "")
+  return (A0_111:gsub("..", function(A0_112)
+    return string.char(tonumber(A0_112, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("A3 AE A7 B4 B6")]("Bypass 4 Done")
 if 100 < sl then
   sl = 100
-end--Ꮲsᴀʏᴄʜᴏ⸙
+end --𝗙𝘂𝗻𝗰𝗶𝗼𝗻
 for i = 1, sl do
   dzy = jg[i].address
-  gg.addListItems({
+  gg[(function(A0_113)
+    A0_113 = A0_113:gsub(" ", "")
+    return (A0_113:gsub("..", function(A0_114)
+      return string.char(tonumber(A0_114, 16) - 66)
+    end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+    ))
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  )("A3 A6 A6 8E AB B5 B6 8B B6 A7 AF B5")]({
     [1] = {
       address = dzy,
       flags = gg.TYPE_DWORD,
@@ -109,10 +340,23 @@ for i = 1, sl do
       value = 0
     }
   })
-end--
-gg.toast("100％")
-gg.alert("BYPASS 𝙼𝙲𝙿𝙱𝙾™ DONE!!!")
-gg.clearResults()
+end --𝗙𝗼𝗿
+gg[(function(A0_115)
+  A0_115 = A0_115:gsub(" ", "")
+  return (A0_115:gsub("..", function(A0_116)
+    return string.char(tonumber(A0_116, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("B6 B1 A3 B5 B6")]("Bypass MCPBO Active")
+gg[(function(A0_117)
+  A0_117 = A0_117:gsub(" ", "")
+  return (A0_117:gsub("..", function(A0_118)
+    return string.char(tonumber(A0_118, 16) - 66)
+  end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+  ))
+end --👑 𝗗𝗲𝗰 𝗕𝘆 𝗠𝗮𝘁𝗲𝗼𝗧𝘃𝗚𝗮𝗺𝗶𝗻𝗚 👑
+)("A5 AE A7 A3 B4 94 A7 B5 B7 AE B6 B5")]()
 
 
 PERTAMA = 1
